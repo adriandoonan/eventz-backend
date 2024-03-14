@@ -1,0 +1,33 @@
+{
+	"name": "eventz-backend",
+	"version": "0.0.1",
+	"description": "The backend for the eventz webapp",
+	"main": "app.js",
+	"type": "module",
+    "homepage": "https://github.com/adriandoonan/eventz-backend#readme",
+	"contributors": [{
+		"name":"Adrian Doonan",
+		"url":"https://github.com/adriandoonan/"
+	},
+	{
+		"name":"Michael Misurel"
+
+
+	}],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"json-server": "0.17.4",
+		"lowdb": "^7.0.1",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "name": "my first test event",
+        "startDate": "2024-03-13",
+        "endDate": "2024-03-20",
+        "organisers": 1
+      }
+    ],
+    "organisers": [
+      {
+        "id": 1,
+        "name": "the event people",
+        "eventsId": 1
+      }
+    ],
+    "volunteers": [
+      {
+        "id": 1,
+        "name": "johnny volunteer",
+        "teams": [1, 2]
+      },
+      {
+        "id": 2,
+        "name": "judy volunteer",
+        "teams": [2]
+      }
+    ],
+    "teams": [
+      {
+        "id": 1,
+        "name": "organising team"
+      },
+      {
+        "id": 2,
+        "name": "disorganising team"
+      }
+    ]
+  }
+  
