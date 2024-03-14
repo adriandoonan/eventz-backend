@@ -1,41 +1,47 @@
 {
-    "events": [
-      {
-        "id": 1,
-        "name": "my first test event",
-        "startDate": "2024-03-13",
-        "endDate": "2024-03-20",
-        "organisers": 1
-      }
-    ],
-    "organisers": [
-      {
-        "id": 1,
-        "name": "the event people",
-        "eventsId": 1
-      }
-    ],
-    "volunteers": [
-      {
-        "id": 1,
-        "name": "johnny volunteer",
-        "teams": [1, 2]
-      },
-      {
-        "id": 2,
-        "name": "judy volunteer",
-        "teams": [2]
-      }
-    ],
-    "teams": [
-      {
-        "id": 1,
-        "name": "organising team"
-      },
-      {
-        "id": 2,
-        "name": "disorganising team"
-      }
-    ]
-  }
-  
+  "events": [
+    {
+      "id": 1,
+      "name": "my first test event",
+      "startDate": "2024-03-13",
+      "endDate": "2024-03-20",
+      "organisers": 1
+    }
+  ],
+  "performers": [
+    {
+      "id": 1,
+      "name": "johnny performer",
+      "teams": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "judy performer",
+      "teams": [
+        2
+      ]
+    }
+  ],
+  "organisers": [
+    {
+      "id": 1,
+      "name": "organising team"
+    },
+    {
+      "id": 2,
+      "name": "disorganising team"
+    }
+  ],
+  "users": [
+    {
+      "email": "me@me.com",
+      "password": "$2a$10$SuxqpBDxcu1mOZeOzoGSTeC7zTlm5A/MC/m74dmdWxjB6IF462Ju2",
+      "firstname": "jij",
+      "lastname": "jijington",
+      "id": 1
+    }
+  ]
+}
