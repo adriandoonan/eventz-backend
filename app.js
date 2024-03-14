@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 6969;
 
 const rules = auth.rewriter({
 	users: 660,
+	events: 664,
 });
 
 server.db = router.db;
