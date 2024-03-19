@@ -25,7 +25,7 @@
 					"label": "Cultural"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/iamge1.png",
@@ -97,7 +97,7 @@
 					"label": "Cultural"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/spring-jazz-image1.png",
@@ -168,7 +168,7 @@
 					"label": "Family"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/summer-street-food-image1.png",
@@ -239,7 +239,7 @@
 					"label": "Entertainment"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/winter-ice-skating-image1.png",
@@ -310,7 +310,7 @@
 					"label": "Summer"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/summer-music-image1.png",
@@ -381,7 +381,7 @@
 					"label": "Networking"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/tech-conference-image1.png",
@@ -452,7 +452,7 @@
 					"label": "Exhibition"
 				}
 			],
-			"promoImage": "https://images.com/modern-masters-exhibition.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/modern-masters-image1.png",
@@ -523,7 +523,7 @@
 					"label": "Culture"
 				}
 			],
-			"promoImage": "https://images.com/oktoberfest-celebration.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/oktoberfest-image1.png",
@@ -594,7 +594,7 @@
 					"label": "Luxury"
 				}
 			],
-			"promoImage": "https://images.com/fashion-week-paris.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/fashion-week-paris-image1.png",
@@ -665,7 +665,7 @@
 					"label": "Art"
 				}
 			],
-			"promoImage": "https://images.com/cultural-festival-barcelona.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/cultural-festival-barcelona-image1.png",
@@ -736,7 +736,7 @@
 					"label": "Culture"
 				}
 			],
-			"promoImage": "https://images.com/berlin-film-festival.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-film-festival-image1.png",
@@ -807,7 +807,7 @@
 					"label": "Trends"
 				}
 			],
-			"promoImage": "https://images.com/berlin-fashion-week.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-fashion-week-image1.png",
@@ -878,7 +878,7 @@
 					"label": "Concerts"
 				}
 			],
-			"promoImage": "https://images.com/berlin-music-week.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-music-week-image1.png",
@@ -949,7 +949,7 @@
 					"label": "Contemporary"
 				}
 			],
-			"promoImage": "https://images.com/berlin-art-week.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-art-week-image1.png",
@@ -1020,7 +1020,7 @@
 					"label": "Tasting"
 				}
 			],
-			"promoImage": "https://images.com/berlin-food-festival.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-food-festival-image1.png",
@@ -1091,7 +1091,7 @@
 					"label": "Summit"
 				}
 			],
-			"promoImage": "https://images.com/berlin-technology-summit.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-technology-summit-image1.png",
@@ -1162,7 +1162,7 @@
 					"label": "Palace"
 				}
 			],
-			"promoImage": "https://images.com/potsdam-palace-night.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/potsdam-palace-night-image1.png",
@@ -1233,7 +1233,7 @@
 					"label": "Concerts"
 				}
 			],
-			"promoImage": "https://images.com/potsdam-music-festival.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/potsdam-music-festival-image1.png",
@@ -1304,7 +1304,7 @@
 					"label": "Tasting"
 				}
 			],
-			"promoImage": "https://images.com/potsdam-wine-festival.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/potsdam-wine-festival-image1.png",
@@ -1375,7 +1375,7 @@
 					"label": "Outdoor"
 				}
 			],
-			"promoImage": "https://images.com/brandenburg-nature-retreat.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/brandenburg-nature-retreat-image1.png",
@@ -1446,7 +1446,7 @@
 					"label": "Cuisine"
 				}
 			],
-			"promoImage": "https://images.com/brandenburg-beer-festival.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/brandenburg-beer-festival-image1.png",
@@ -1517,7 +1517,7 @@
 					"label": "Race"
 				}
 			],
-			"promoImage": "https://images.com/brandenburg-castle-run.png",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/brandenburg-castle-run-image1.png",
@@ -1588,7 +1588,7 @@
 					"label": "Street Food"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1590053071284-2cb2d7a79693",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1589090604168-b9b676c91063",
@@ -1654,7 +1654,7 @@
 					"label": "Style"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1560168026-7f12c8715a9f",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1512069772995-ec99c7bd3e47",
@@ -1720,7 +1720,7 @@
 					"label": "Cinema"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1552058544-f2b08422138a",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1520158314324-fd87e3429e0f",
@@ -1786,7 +1786,7 @@
 					"label": "Entertainment"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
@@ -1852,7 +1852,7 @@
 					"label": "Entertainment"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
@@ -1918,7 +1918,7 @@
 					"label": "Festival"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
@@ -1984,7 +1984,7 @@
 					"label": "Entertainment"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
@@ -2050,7 +2050,7 @@
 					"label": "Entertainment"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
@@ -2116,7 +2116,7 @@
 					"label": "Entertainment"
 				}
 			],
-			"promoImage": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
