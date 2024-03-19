@@ -11,7 +11,20 @@
 			"startDate": "2024-01-13T13:00:00",
 			"endDate": "2024-01-20T23:59:59",
 			"organiser": "Eventz Productions",
-			"tags": ["Foodie", "Networking", "Cultural"],
+			"tags": [
+				{
+					"value": "foodie",
+					"label": "Foodie"
+				},
+				{
+					"value": "networking",
+					"label": "Networking"
+				},
+				{
+					"value": "cultural",
+					"label": "Cultural"
+				}
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -58,7 +71,6 @@
 				}
 			]
 		},
-
 		{
 			"id": 1,
 			"slug": "first-event",
@@ -70,7 +82,20 @@
 			"startDate": "2024-04-15T18:00:00",
 			"endDate": "2024-04-16T23:59:59",
 			"organiser": "JazzWorks Productions",
-			"tags": ["Music", "Nightlife", "Cultural"],
+			"tags": [
+				{
+					"value": "music",
+					"label": "Music"
+				},
+				{
+					"value": "nightlife",
+					"label": "Nightlife"
+				},
+				{
+					"value": "cultural",
+					"label": "Cultural"
+				}
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -128,7 +153,20 @@
 			"startDate": "2024-07-20T11:00:00",
 			"endDate": "2024-07-22T22:00:00",
 			"organiser": "Global Gastronomy Events",
-			"tags": ["Foodie", "Cultural", "Family"],
+			"tags": [
+				{
+					"value": "foodie",
+					"label": "Foodie"
+				},
+				{
+					"value": "cultural",
+					"label": "Cultural"
+				},
+				{
+					"value": "family",
+					"label": "Family"
+				}
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -186,7 +224,20 @@
 			"startDate": "2024-12-01T10:00:00",
 			"endDate": "2024-12-31T21:00:00",
 			"organiser": "Frosty Events Inc.",
-			"tags": ["Family", "Winter", "Entertainment"],
+			"tags": [
+				{
+					"value": "family",
+					"label": "Family"
+				},
+				{
+					"value": "winter",
+					"label": "Winter"
+				},
+				{
+					"value": "entertainment",
+					"label": "Entertainment"
+				}
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -244,7 +295,20 @@
 			"startDate": "2024-06-21T12:00:00",
 			"endDate": "2024-06-23T23:59:59",
 			"organiser": "MusicMania Events",
-			"tags": ["Music", "Festival", "Summer"],
+			"tags": [
+				{
+					"value": "music",
+					"label": "Music"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "summer",
+					"label": "Summer"
+				}
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -302,7 +366,20 @@
 			"startDate": "2024-09-10T09:00:00",
 			"endDate": "2024-09-12T18:00:00",
 			"organiser": "TechTalk Conferences",
-			"tags": ["Technology", "Innovation", "Networking"],
+			"tags": [
+				{
+					"value": "technology",
+					"label": "Technology"
+				},
+				{
+					"value": "innovation",
+					"label": "Innovation"
+				},
+				{
+					"value": "networking",
+					"label": "Networking"
+				}
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -360,7 +437,20 @@
 			"startDate": "2024-11-01T10:00:00",
 			"endDate": "2024-11-30T18:00:00",
 			"organiser": "Artistic Impressions",
-			"tags": ["Art", "Culture", "Exhibition"],
+			"tags": [
+				{
+					"value": "art",
+					"label": "Art"
+				},
+				{
+					"value": "culture",
+					"label": "Culture"
+				},
+				{
+					"value": "exhibition",
+					"label": "Exhibition"
+				}
+			],
 			"promoImage": "https://images.com/modern-masters-exhibition.png",
 			"images": [
 				{
@@ -418,7 +508,20 @@
 			"startDate": "2024-09-21T12:00:00",
 			"endDate": "2024-10-06T23:59:59",
 			"organiser": "Bavarian Events GmbH",
-			"tags": ["Festival", "Beer", "Culture"],
+			"tags": [
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "beer",
+					"label": "Beer"
+				},
+				{
+					"value": "culture",
+					"label": "Culture"
+				}
+			],
 			"promoImage": "https://images.com/oktoberfest-celebration.png",
 			"images": [
 				{
@@ -476,7 +579,20 @@
 			"startDate": "2024-10-01T09:00:00",
 			"endDate": "2024-10-08T18:00:00",
 			"organiser": "Fashion Forward Events",
-			"tags": ["Fashion", "Style", "Luxury"],
+			"tags": [
+				{
+					"value": "fashion",
+					"label": "Fashion"
+				},
+				{
+					"value": "style",
+					"label": "Style"
+				},
+				{
+					"value": "luxury",
+					"label": "Luxury"
+				}
+			],
 			"promoImage": "https://images.com/fashion-week-paris.png",
 			"images": [
 				{
@@ -534,7 +650,20 @@
 			"startDate": "2024-08-15T10:00:00",
 			"endDate": "2024-08-17T22:00:00",
 			"organiser": "Barcelona Cultural Society",
-			"tags": ["Cultural", "Music", "Art"],
+			"tags": [
+				{
+					"value": "cultural",
+					"label": "Cultural"
+				},
+				{
+					"value": "music",
+					"label": "Music"
+				},
+				{
+					"value": "art",
+					"label": "Art"
+				}
+			],
 			"promoImage": "https://images.com/cultural-festival-barcelona.png",
 			"images": [
 				{
@@ -592,7 +721,20 @@
 			"startDate": "2024-02-15T10:00:00",
 			"endDate": "2024-02-25T23:59:59",
 			"organiser": "Berlinale Events GmbH",
-			"tags": ["Film", "Cinema", "Culture"],
+			"tags": [
+				{
+					"value": "film",
+					"label": "Film"
+				},
+				{
+					"value": "cinema",
+					"label": "Cinema"
+				},
+				{
+					"value": "culture",
+					"label": "Culture"
+				}
+			],
 			"promoImage": "https://images.com/berlin-film-festival.png",
 			"images": [
 				{
@@ -650,7 +792,20 @@
 			"startDate": "2024-07-01T09:00:00",
 			"endDate": "2024-07-06T18:00:00",
 			"organiser": "Berlin Fashion Council",
-			"tags": ["Fashion", "Style", "Trends"],
+			"tags": [
+				{
+					"value": "fashion",
+					"label": "Fashion"
+				},
+				{
+					"value": "style",
+					"label": "Style"
+				},
+				{
+					"value": "trends",
+					"label": "Trends"
+				}
+			],
 			"promoImage": "https://images.com/berlin-fashion-week.png",
 			"images": [
 				{
@@ -708,7 +863,20 @@
 			"startDate": "2024-09-02T12:00:00",
 			"endDate": "2024-09-07T23:59:59",
 			"organiser": "Berlin Music Association",
-			"tags": ["Music", "Festival", "Concerts"],
+			"tags": [
+				{
+					"value": "music",
+					"label": "Music"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "concerts",
+					"label": "Concerts"
+				}
+			],
 			"promoImage": "https://images.com/berlin-music-week.png",
 			"images": [
 				{
@@ -766,7 +934,20 @@
 			"startDate": "2024-09-18T10:00:00",
 			"endDate": "2024-09-22T18:00:00",
 			"organiser": "Berlin Art Association",
-			"tags": ["Art", "Exhibition", "Contemporary"],
+			"tags": [
+				{
+					"value": "art",
+					"label": "Art"
+				},
+				{
+					"value": "exhibition",
+					"label": "Exhibition"
+				},
+				{
+					"value": "contemporary",
+					"label": "Contemporary"
+				}
+			],
 			"promoImage": "https://images.com/berlin-art-week.png",
 			"images": [
 				{
@@ -824,7 +1005,20 @@
 			"startDate": "2024-05-10T12:00:00",
 			"endDate": "2024-05-12T23:59:59",
 			"organiser": "Berlin Food Society",
-			"tags": ["Food", "Cuisine", "Tasting"],
+			"tags": [
+				{
+					"value": "food",
+					"label": "Food"
+				},
+				{
+					"value": "cuisine",
+					"label": "Cuisine"
+				},
+				{
+					"value": "tasting",
+					"label": "Tasting"
+				}
+			],
 			"promoImage": "https://images.com/berlin-food-festival.png",
 			"images": [
 				{
@@ -882,7 +1076,20 @@
 			"startDate": "2024-11-05T09:00:00",
 			"endDate": "2024-11-07T18:00:00",
 			"organiser": "Berlin Tech Alliance",
-			"tags": ["Technology", "Innovation", "Summit"],
+			"tags": [
+				{
+					"value": "technology",
+					"label": "Technology"
+				},
+				{
+					"value": "innovation",
+					"label": "Innovation"
+				},
+				{
+					"value": "summit",
+					"label": "Summit"
+				}
+			],
 			"promoImage": "https://images.com/berlin-technology-summit.png",
 			"images": [
 				{
@@ -940,7 +1147,20 @@
 			"startDate": "2024-07-20T18:00:00",
 			"endDate": "2024-07-21T02:00:00",
 			"organiser": "Potsdam Cultural Association",
-			"tags": ["Cultural", "Night Event", "Palace"],
+			"tags": [
+				{
+					"value": "cultural",
+					"label": "Cultural"
+				},
+				{
+					"value": "night event",
+					"label": "Night Event"
+				},
+				{
+					"value": "palace",
+					"label": "Palace"
+				}
+			],
 			"promoImage": "https://images.com/potsdam-palace-night.png",
 			"images": [
 				{
@@ -998,7 +1218,20 @@
 			"startDate": "2024-08-10T10:00:00",
 			"endDate": "2024-08-12T23:59:59",
 			"organiser": "Potsdam Music Society",
-			"tags": ["Music", "Festival", "Concerts"],
+			"tags": [
+				{
+					"value": "music",
+					"label": "Music"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "concerts",
+					"label": "Concerts"
+				}
+			],
 			"promoImage": "https://images.com/potsdam-music-festival.png",
 			"images": [
 				{
@@ -1056,7 +1289,20 @@
 			"startDate": "2024-09-28T12:00:00",
 			"endDate": "2024-09-30T23:59:59",
 			"organiser": "Potsdam Wine Guild",
-			"tags": ["Wine", "Festival", "Tasting"],
+			"tags": [
+				{
+					"value": "wine",
+					"label": "Wine"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "tasting",
+					"label": "Tasting"
+				}
+			],
 			"promoImage": "https://images.com/potsdam-wine-festival.png",
 			"images": [
 				{
@@ -1114,7 +1360,20 @@
 			"startDate": "2024-06-15T09:00:00",
 			"endDate": "2024-06-17T17:00:00",
 			"organiser": "Brandenburg Tourism Board",
-			"tags": ["Nature", "Retreat", "Outdoor"],
+			"tags": [
+				{
+					"value": "nature",
+					"label": "Nature"
+				},
+				{
+					"value": "retreat",
+					"label": "Retreat"
+				},
+				{
+					"value": "outdoor",
+					"label": "Outdoor"
+				}
+			],
 			"promoImage": "https://images.com/brandenburg-nature-retreat.png",
 			"images": [
 				{
@@ -1172,7 +1431,20 @@
 			"startDate": "2024-08-24T16:00:00",
 			"endDate": "2024-08-26T23:59:59",
 			"organiser": "Brandenburg Brewers Guild",
-			"tags": ["Beer", "Festival", "Cuisine"],
+			"tags": [
+				{
+					"value": "beer",
+					"label": "Beer"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "cuisine",
+					"label": "Cuisine"
+				}
+			],
 			"promoImage": "https://images.com/brandenburg-beer-festival.png",
 			"images": [
 				{
@@ -1230,7 +1502,20 @@
 			"startDate": "2024-10-12T08:00:00",
 			"endDate": "2024-10-12T12:00:00",
 			"organiser": "Brandenburg Athletics Association",
-			"tags": ["Sports", "Running", "Race"],
+			"tags": [
+				{
+					"value": "sports",
+					"label": "Sports"
+				},
+				{
+					"value": "running",
+					"label": "Running"
+				},
+				{
+					"value": "race",
+					"label": "Race"
+				}
+			],
 			"promoImage": "https://images.com/brandenburg-castle-run.png",
 			"images": [
 				{
@@ -1288,7 +1573,20 @@
 			"startDate": "2024-07-05T12:00:00",
 			"endDate": "2024-07-07T23:59:59",
 			"organiser": "Berlin Food Events",
-			"tags": ["Food", "Festival", "Street Food"],
+			"tags": [
+				{
+					"value": "food",
+					"label": "Food"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "street food",
+					"label": "Street Food"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1590053071284-2cb2d7a79693",
 			"images": [
 				{
@@ -1341,7 +1639,20 @@
 			"startDate": "2024-09-10T10:00:00",
 			"endDate": "2024-09-14T23:59:59",
 			"organiser": "Berlin Fashion Council",
-			"tags": ["Fashion", "Runway", "Style"],
+			"tags": [
+				{
+					"value": "fashion",
+					"label": "Fashion"
+				},
+				{
+					"value": "runway",
+					"label": "Runway"
+				},
+				{
+					"value": "style",
+					"label": "Style"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1560168026-7f12c8715a9f",
 			"images": [
 				{
@@ -1394,7 +1705,20 @@
 			"startDate": "2024-02-15T10:00:00",
 			"endDate": "2024-02-25T23:59:59",
 			"organiser": "Berlin International Film Festival",
-			"tags": ["Film", "Festival", "Cinema"],
+			"tags": [
+				{
+					"value": "film",
+					"label": "Film"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "cinema",
+					"label": "Cinema"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1552058544-f2b08422138a",
 			"images": [
 				{
@@ -1447,7 +1771,20 @@
 			"startDate": "2024-08-10T20:00:00",
 			"endDate": "2024-08-10T23:00:00",
 			"organiser": "Berlin Comedy Club",
-			"tags": ["Comedy", "Stand-up", "Entertainment"],
+			"tags": [
+				{
+					"value": "comedy",
+					"label": "Comedy"
+				},
+				{
+					"value": "stand-up",
+					"label": "Stand-up"
+				},
+				{
+					"value": "entertainment",
+					"label": "Entertainment"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
 			"images": [
 				{
@@ -1500,7 +1837,20 @@
 			"startDate": "2024-09-21T19:30:00",
 			"endDate": "2024-09-21T22:30:00",
 			"organiser": "Berlin Improv Society",
-			"tags": ["Comedy", "Improv", "Entertainment"],
+			"tags": [
+				{
+					"value": "comedy",
+					"label": "Comedy"
+				},
+				{
+					"value": "improv",
+					"label": "Improv"
+				},
+				{
+					"value": "entertainment",
+					"label": "Entertainment"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
 			"images": [
 				{
@@ -1553,7 +1903,20 @@
 			"startDate": "2024-11-05T10:00:00",
 			"endDate": "2024-11-08T23:59:59",
 			"organiser": "Berlin Comedy Film Society",
-			"tags": ["Comedy", "Film", "Festival"],
+			"tags": [
+				{
+					"value": "comedy",
+					"label": "Comedy"
+				},
+				{
+					"value": "film",
+					"label": "Film"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
 			"images": [
 				{
@@ -1606,7 +1969,20 @@
 			"startDate": "2024-09-15T19:00:00",
 			"endDate": "2024-09-15T22:00:00",
 			"organiser": "Berlin Comedy Collective",
-			"tags": ["Comedy", "Stand-up", "Entertainment"],
+			"tags": [
+				{
+					"value": "comedy",
+					"label": "Comedy"
+				},
+				{
+					"value": "stand-up",
+					"label": "Stand-up"
+				},
+				{
+					"value": "entertainment",
+					"label": "Entertainment"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
 			"images": [
 				{
@@ -1659,7 +2035,20 @@
 			"startDate": "2024-10-20T20:30:00",
 			"endDate": "2024-10-20T23:30:00",
 			"organiser": "Berlin Comedy Cabaret Company",
-			"tags": ["Comedy", "Cabaret", "Entertainment"],
+			"tags": [
+				{
+					"value": "comedy",
+					"label": "Comedy"
+				},
+				{
+					"value": "cabaret",
+					"label": "Cabaret"
+				},
+				{
+					"value": "entertainment",
+					"label": "Entertainment"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
 			"images": [
 				{
@@ -1712,7 +2101,20 @@
 			"startDate": "2024-11-30T18:00:00",
 			"endDate": "2024-12-02T23:59:59",
 			"organiser": "Berlin Comedy Festival Association",
-			"tags": ["Comedy", "Festival", "Entertainment"],
+			"tags": [
+				{
+					"value": "comedy",
+					"label": "Comedy"
+				},
+				{
+					"value": "festival",
+					"label": "Festival"
+				},
+				{
+					"value": "entertainment",
+					"label": "Entertainment"
+				}
+			],
 			"promoImage": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
 			"images": [
 				{
