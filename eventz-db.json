@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"id": 1,
+			"id": 0,
 			"slug": "zero-event",
 			"name": "my test event zero",
 			"description": "Join us for the biggest music festival of the year! Enjoy live performances by top artists across multiple stages.",
@@ -11,12 +11,8 @@
 			"startDate": "2024-01-13T13:00:00",
 			"endDate": "2024-01-20T23:59:59",
 			"organiser": "Eventz Productions",
-			"tags": [
-				"Foodie",
-				"Networking",
-				"Cultural"
-			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"tags": ["Foodie", "Networking", "Cultural"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/iamge1.png",
@@ -88,7 +84,7 @@
 					"label": "Cultural"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/spring-jazz-image1.png",
@@ -159,7 +155,7 @@
 					"label": "Cultural"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/summer-street-food-image1.png",
@@ -230,7 +226,7 @@
 					"label": "Sporty"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/winter-ice-skating-image1.png",
@@ -301,7 +297,7 @@
 					"label": "Summer"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/summer-music-image1.png",
@@ -372,7 +368,7 @@
 					"label": "Networking"
 				}
 			],
-			"promoImage": "/src/assets/demo-image-stretching.avif",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/tech-conference-image1.png",
@@ -429,12 +425,8 @@
 			"startDate": "2024-11-01T10:00:00",
 			"endDate": "2024-11-30T18:00:00",
 			"organiser": "Artistic Impressions",
-			"tags": [
-				"Art",
-				"Culture",
-				"Exhibition"
-			],
-			"promoImage": "https://images.com/modern-masters-exhibition.png",
+			"tags": ["Art", "Culture", "Exhibition"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/modern-masters-image1.png",
@@ -491,12 +483,8 @@
 			"startDate": "2024-09-21T12:00:00",
 			"endDate": "2024-10-06T23:59:59",
 			"organiser": "Bavarian Events GmbH",
-			"tags": [
-				"Festival",
-				"Beer",
-				"Culture"
-			],
-			"promoImage": "https://images.com/oktoberfest-celebration.png",
+			"tags": ["Festival", "Beer", "Culture"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/oktoberfest-image1.png",
@@ -553,12 +541,8 @@
 			"startDate": "2024-10-01T09:00:00",
 			"endDate": "2024-10-08T18:00:00",
 			"organiser": "Fashion Forward Events",
-			"tags": [
-				"Fashion",
-				"Style",
-				"Luxury"
-			],
-			"promoImage": "https://images.com/fashion-week-paris.png",
+			"tags": ["Fashion", "Style", "Luxury"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/fashion-week-paris-image1.png",
@@ -615,12 +599,8 @@
 			"startDate": "2024-08-15T10:00:00",
 			"endDate": "2024-08-17T22:00:00",
 			"organiser": "Barcelona Cultural Society",
-			"tags": [
-				"Cultural",
-				"Music",
-				"Art"
-			],
-			"promoImage": "https://images.com/cultural-festival-barcelona.png",
+			"tags": ["Cultural", "Music", "Art"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/cultural-festival-barcelona-image1.png",
@@ -677,12 +657,8 @@
 			"startDate": "2024-02-15T10:00:00",
 			"endDate": "2024-02-25T23:59:59",
 			"organiser": "Berlinale Events GmbH",
-			"tags": [
-				"Film",
-				"Cinema",
-				"Culture"
-			],
-			"promoImage": "https://images.com/berlin-film-festival.png",
+			"tags": ["Film", "Cinema", "Culture"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-film-festival-image1.png",
@@ -739,12 +715,8 @@
 			"startDate": "2024-07-01T09:00:00",
 			"endDate": "2024-07-06T18:00:00",
 			"organiser": "Berlin Fashion Council",
-			"tags": [
-				"Fashion",
-				"Style",
-				"Trends"
-			],
-			"promoImage": "https://images.com/berlin-fashion-week.png",
+			"tags": ["Fashion", "Style", "Trends"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-fashion-week-image1.png",
@@ -801,12 +773,8 @@
 			"startDate": "2024-09-02T12:00:00",
 			"endDate": "2024-09-07T23:59:59",
 			"organiser": "Berlin Music Association",
-			"tags": [
-				"Music",
-				"Festival",
-				"Concerts"
-			],
-			"promoImage": "https://images.com/berlin-music-week.png",
+			"tags": ["Music", "Festival", "Concerts"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-music-week-image1.png",
@@ -863,12 +831,8 @@
 			"startDate": "2024-09-18T10:00:00",
 			"endDate": "2024-09-22T18:00:00",
 			"organiser": "Berlin Art Association",
-			"tags": [
-				"Art",
-				"Exhibition",
-				"Contemporary"
-			],
-			"promoImage": "https://images.com/berlin-art-week.png",
+			"tags": ["Art", "Exhibition", "Contemporary"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-art-week-image1.png",
@@ -925,12 +889,8 @@
 			"startDate": "2024-05-10T12:00:00",
 			"endDate": "2024-05-12T23:59:59",
 			"organiser": "Berlin Food Society",
-			"tags": [
-				"Food",
-				"Cuisine",
-				"Tasting"
-			],
-			"promoImage": "https://images.com/berlin-food-festival.png",
+			"tags": ["Food", "Cuisine", "Tasting"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-food-festival-image1.png",
@@ -987,12 +947,8 @@
 			"startDate": "2024-11-05T09:00:00",
 			"endDate": "2024-11-07T18:00:00",
 			"organiser": "Berlin Tech Alliance",
-			"tags": [
-				"Technology",
-				"Innovation",
-				"Summit"
-			],
-			"promoImage": "https://images.com/berlin-technology-summit.png",
+			"tags": ["Technology", "Innovation", "Summit"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/berlin-technology-summit-image1.png",
@@ -1049,12 +1005,8 @@
 			"startDate": "2024-07-20T18:00:00",
 			"endDate": "2024-07-21T02:00:00",
 			"organiser": "Potsdam Cultural Association",
-			"tags": [
-				"Cultural",
-				"Night Event",
-				"Palace"
-			],
-			"promoImage": "https://images.com/potsdam-palace-night.png",
+			"tags": ["Cultural", "Night Event", "Palace"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/potsdam-palace-night-image1.png",
@@ -1111,12 +1063,8 @@
 			"startDate": "2024-08-10T10:00:00",
 			"endDate": "2024-08-12T23:59:59",
 			"organiser": "Potsdam Music Society",
-			"tags": [
-				"Music",
-				"Festival",
-				"Concerts"
-			],
-			"promoImage": "https://images.com/potsdam-music-festival.png",
+			"tags": ["Music", "Festival", "Concerts"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/potsdam-music-festival-image1.png",
@@ -1173,12 +1121,8 @@
 			"startDate": "2024-09-28T12:00:00",
 			"endDate": "2024-09-30T23:59:59",
 			"organiser": "Potsdam Wine Guild",
-			"tags": [
-				"Wine",
-				"Festival",
-				"Tasting"
-			],
-			"promoImage": "https://images.com/potsdam-wine-festival.png",
+			"tags": ["Wine", "Festival", "Tasting"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/potsdam-wine-festival-image1.png",
@@ -1235,12 +1179,8 @@
 			"startDate": "2024-06-15T09:00:00",
 			"endDate": "2024-06-17T17:00:00",
 			"organiser": "Brandenburg Tourism Board",
-			"tags": [
-				"Nature",
-				"Retreat",
-				"Outdoor"
-			],
-			"promoImage": "https://images.com/brandenburg-nature-retreat.png",
+			"tags": ["Nature", "Retreat", "Outdoor"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/brandenburg-nature-retreat-image1.png",
@@ -1297,12 +1237,8 @@
 			"startDate": "2024-08-24T16:00:00",
 			"endDate": "2024-08-26T23:59:59",
 			"organiser": "Brandenburg Brewers Guild",
-			"tags": [
-				"Beer",
-				"Festival",
-				"Cuisine"
-			],
-			"promoImage": "https://images.com/brandenburg-beer-festival.png",
+			"tags": ["Beer", "Festival", "Cuisine"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/brandenburg-beer-festival-image1.png",
@@ -1359,12 +1295,8 @@
 			"startDate": "2024-10-12T08:00:00",
 			"endDate": "2024-10-12T12:00:00",
 			"organiser": "Brandenburg Athletics Association",
-			"tags": [
-				"Sports",
-				"Running",
-				"Race"
-			],
-			"promoImage": "https://images.com/brandenburg-castle-run.png",
+			"tags": ["Sports", "Running", "Race"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://some.com/brandenburg-castle-run-image1.png",
@@ -1421,12 +1353,8 @@
 			"startDate": "2024-07-05T12:00:00",
 			"endDate": "2024-07-07T23:59:59",
 			"organiser": "Berlin Food Events",
-			"tags": [
-				"Food",
-				"Festival",
-				"Street Food"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1590053071284-2cb2d7a79693",
+			"tags": ["Food", "Festival", "Street Food"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1589090604168-b9b676c91063",
@@ -1478,12 +1406,8 @@
 			"startDate": "2024-09-10T10:00:00",
 			"endDate": "2024-09-14T23:59:59",
 			"organiser": "Berlin Fashion Council",
-			"tags": [
-				"Fashion",
-				"Runway",
-				"Style"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1560168026-7f12c8715a9f",
+			"tags": ["Fashion", "Runway", "Style"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1512069772995-ec99c7bd3e47",
@@ -1535,12 +1459,8 @@
 			"startDate": "2024-02-15T10:00:00",
 			"endDate": "2024-02-25T23:59:59",
 			"organiser": "Berlin International Film Festival",
-			"tags": [
-				"Film",
-				"Festival",
-				"Cinema"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1552058544-f2b08422138a",
+			"tags": ["Film", "Festival", "Cinema"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1520158314324-fd87e3429e0f",
@@ -1592,12 +1512,8 @@
 			"startDate": "2024-08-10T20:00:00",
 			"endDate": "2024-08-10T23:00:00",
 			"organiser": "Berlin Comedy Club",
-			"tags": [
-				"Comedy",
-				"Stand-up",
-				"Entertainment"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
+			"tags": ["Comedy", "Stand-up", "Entertainment"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
@@ -1649,12 +1565,8 @@
 			"startDate": "2024-09-21T19:30:00",
 			"endDate": "2024-09-21T22:30:00",
 			"organiser": "Berlin Improv Society",
-			"tags": [
-				"Comedy",
-				"Improv",
-				"Entertainment"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
+			"tags": ["Comedy", "Improv", "Entertainment"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
@@ -1706,12 +1618,8 @@
 			"startDate": "2024-11-05T10:00:00",
 			"endDate": "2024-11-08T23:59:59",
 			"organiser": "Berlin Comedy Film Society",
-			"tags": [
-				"Comedy",
-				"Film",
-				"Festival"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
+			"tags": ["Comedy", "Film", "Festival"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
@@ -1763,12 +1671,8 @@
 			"startDate": "2024-09-15T19:00:00",
 			"endDate": "2024-09-15T22:00:00",
 			"organiser": "Berlin Comedy Collective",
-			"tags": [
-				"Comedy",
-				"Stand-up",
-				"Entertainment"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
+			"tags": ["Comedy", "Stand-up", "Entertainment"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
@@ -1820,12 +1724,8 @@
 			"startDate": "2024-10-20T20:30:00",
 			"endDate": "2024-10-20T23:30:00",
 			"organiser": "Berlin Comedy Cabaret Company",
-			"tags": [
-				"Comedy",
-				"Cabaret",
-				"Entertainment"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
+			"tags": ["Comedy", "Cabaret", "Entertainment"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
@@ -1877,12 +1777,8 @@
 			"startDate": "2024-11-30T18:00:00",
 			"endDate": "2024-12-02T23:59:59",
 			"organiser": "Berlin Comedy Festival Association",
-			"tags": [
-				"Comedy",
-				"Festival",
-				"Entertainment"
-			],
-			"promoImage": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
+			"tags": ["Comedy", "Festival", "Entertainment"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
@@ -1931,10 +1827,8 @@
 			"startDate": "2024-03-18T17:19",
 			"endDate": "2024-03-18T17:21",
 			"organiser": "aed",
-			"tags": [
-				"efa"
-			],
-			"promoImage": "http://aesf.com",
+			"tags": ["efa"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "",
@@ -1954,10 +1848,8 @@
 			"startDate": "2024-03-29T09:59",
 			"endDate": "2024-03-19T09:05",
 			"organiser": "agae",
-			"tags": [
-				"test"
-			],
-			"promoImage": "https://aef.com",
+			"tags": ["test"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "",
@@ -1977,10 +1869,8 @@
 			"startDate": "2024-03-29T09:59",
 			"endDate": "2024-03-19T09:05",
 			"organiser": "agae",
-			"tags": [
-				"test"
-			],
-			"promoImage": "https://aef.com",
+			"tags": ["test"],
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "",
@@ -2010,8 +1900,8 @@
 					"label": "option 5"
 				}
 			],
-			"promoImage": "http://unsfe.com",
-			"images": "[object Object]efq",
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [],
 			"pendingApproval": true,
 			"slug": "some-event-woth-tags",
 			"id": 34
@@ -2034,7 +1924,7 @@
 					"label": "Techno"
 				}
 			],
-			"promoImage": "https://gpr.com",
+			"promoImage": "/assets/demo-image-stretching.avif",
 			"images": [
 				{
 					"url": "",
@@ -2045,6 +1935,36 @@
 			"pendingApproval": true,
 			"slug": "aefggfg",
 			"id": 35
+		},
+		{
+			"name": "bloop blorp event",
+			"description": "aef",
+			"location": "aeg",
+			"venue": "aef",
+			"startDate": "2024-03-19T11:58",
+			"endDate": "2024-03-19T10:04",
+			"organiser": "geee",
+			"tags": [
+				{
+					"value": "rock",
+					"label": "Rock"
+				},
+				{
+					"value": "techno",
+					"label": "Techno"
+				}
+			],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "blerrrg",
+			"id": 36
 		}
 	],
 	"performers": [
