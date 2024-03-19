@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 6969;
 
 const rules = auth.rewriter({
 	users: 660,
-	//events: 664,
+	events: 664,
 });
 
 server.db = router.db;
@@ -21,14 +21,6 @@ server.use(middleware);
 server.use(rules);
 server.use(auth);
 server.use(morgan("dev"));
-server.use(
-	jsonServer.rewriter({
-		"/teams/:teamId/teammembers/:teammemberId": "/teammembers/:teammemberId",
-	}),
-);
-server.use(
-	jsonServer.rewriter({ "/carts/:cartId/items/:itemId": "/items/:itemId" }),
-);
 server.unsubscribe((req, res, next) => {
 	res.header("Access-Control-Allow-Origin", "*");
 	next();
