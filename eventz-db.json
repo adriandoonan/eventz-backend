@@ -58,19 +58,23 @@
 				}
 			]
 		},
-
 		{
 			"id": 1,
 			"slug": "first-event",
 			"name": "Spring Jazz Festival",
-			"description": "Experience the smooth sounds of jazz under the stars. Join us for an unforgettable evening filled with soulful performances.",
+			"description": "Experience the smooth sounds of jazz under the stars.\nJoin us for an unforgettable evening filled with soulful performances.",
 			"location": "Los Angeles",
+			"featuredEvent": true,
 			"locationCoords": "34.052235, -118.243683",
 			"venue": "Sunset Park Amphitheater",
 			"startDate": "2024-04-15T18:00:00",
 			"endDate": "2024-04-16T23:59:59",
 			"organiser": "JazzWorks Productions",
-			"tags": ["Music", "Nightlife", "Cultural"],
+			"tags": [
+				{ "value": "music", "label": "Music" },
+				{ "value": "nightlife", "label": "Nightlife" },
+				{ "value": "cultural", "label": "Cultural" }
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -128,7 +132,11 @@
 			"startDate": "2024-07-20T11:00:00",
 			"endDate": "2024-07-22T22:00:00",
 			"organiser": "Global Gastronomy Events",
-			"tags": ["Foodie", "Cultural", "Family"],
+			"tags": [
+				{ "value": "foodie", "label": "Foodie" },
+				{ "value": "family", "label": "Family" },
+				{ "value": "cultural", "label": "Cultural" }
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -186,7 +194,11 @@
 			"startDate": "2024-12-01T10:00:00",
 			"endDate": "2024-12-31T21:00:00",
 			"organiser": "Frosty Events Inc.",
-			"tags": ["Family", "Winter", "Entertainment"],
+			"tags": [
+				{ "value": "family", "label": "Family" },
+				{ "value": "winter", "label": "Winter" },
+				{ "value": "sporty", "label": "Sporty" }
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -244,7 +256,11 @@
 			"startDate": "2024-06-21T12:00:00",
 			"endDate": "2024-06-23T23:59:59",
 			"organiser": "MusicMania Events",
-			"tags": ["Music", "Festival", "Summer"],
+			"tags": [
+				{ "value": "music", "label": "Music" },
+				{ "value": "festival", "label": "Festival" },
+				{ "value": "summer", "label": "Summer" }
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -302,7 +318,11 @@
 			"startDate": "2024-09-10T09:00:00",
 			"endDate": "2024-09-12T18:00:00",
 			"organiser": "TechTalk Conferences",
-			"tags": ["Technology", "Innovation", "Networking"],
+			"tags": [
+				{ "value": "technology", "label": "Technology" },
+				{ "value": "innovation", "label": "Innovation" },
+				{ "value": "networking", "label": "Networking" }
+			],
 			"promoImage": "/src/assets/demo-image-stretching.avif",
 			"images": [
 				{
@@ -1753,6 +1773,123 @@
 					"credit": "Unsplash"
 				}
 			]
+		},
+		{
+			"name": "wefas",
+			"description": "wqdef",
+			"location": "ersf",
+			"venue": "eaf",
+			"startDate": "2024-03-18T17:19",
+			"endDate": "2024-03-18T17:21",
+			"organiser": "aed",
+			"tags": "efa",
+			"promoImage": "http://aesf.com",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "wefas",
+			"id": 31
+		},
+		{
+			"name": "advadv",
+			"description": "advadv",
+			"location": "aef",
+			"venue": "aegae",
+			"startDate": "2024-03-29T09:59",
+			"endDate": "2024-03-19T09:05",
+			"organiser": "agae",
+			"tags": [],
+			"promoImage": "https://aef.com",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "advadv",
+			"id": 32
+		},
+		{
+			"name": "advadv",
+			"description": "advadv",
+			"location": "aef",
+			"venue": "aegae",
+			"startDate": "2024-03-29T09:59",
+			"endDate": "2024-03-19T09:05",
+			"organiser": "agae",
+			"tags": [],
+			"promoImage": "https://aef.com",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "advadv",
+			"id": 33
+		},
+		{
+			"name": "some event woth tags",
+			"description": "aef;jnefgkjnefg",
+			"location": "aefgr",
+			"venue": "ef",
+			"startDate": "2024-03-19T14:11",
+			"endDate": "2024-03-30T10:11",
+			"organiser": "vrs",
+			"tags": [
+				{
+					"value": 3,
+					"label": "option 3"
+				},
+				{
+					"value": 5,
+					"label": "option 5"
+				}
+			],
+			"promoImage": "http://unsfe.com",
+			"images": "[object Object]efq",
+			"pendingApproval": true,
+			"slug": "some-event-woth-tags",
+			"id": 34
+		},
+		{
+			"name": "aefggfg",
+			"description": "aef",
+			"location": "aeg",
+			"venue": "aef",
+			"startDate": "2024-03-19T11:58",
+			"endDate": "2024-03-19T10:04",
+			"organiser": "geee",
+			"tags": [
+				{
+					"value": "rock",
+					"label": "Rock"
+				},
+				{
+					"value": "techno",
+					"label": "Techno"
+				}
+			],
+			"promoImage": "https://gpr.com",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "aefggfg",
+			"id": 35
 		}
 	],
 	"performers": [
@@ -1795,7 +1932,6 @@
 			},
 			"teamId": "2",
 			"id": 2,
-
 			"performerId": 1
 		}
 	],
