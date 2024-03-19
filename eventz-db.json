@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"id": 1,
+			"id": 0,
 			"slug": "zero-event",
 			"name": "my test event zero",
 			"description": "Join us for the biggest music festival of the year! Enjoy live performances by top artists across multiple stages.",
@@ -75,8 +75,9 @@
 			"id": 1,
 			"slug": "first-event",
 			"name": "Spring Jazz Festival",
-			"description": "Experience the smooth sounds of jazz under the stars. Join us for an unforgettable evening filled with soulful performances.",
+			"description": "Experience the smooth sounds of jazz under the stars.\nJoin us for an unforgettable evening filled with soulful performances.",
 			"location": "Los Angeles",
+			"featuredEvent": true,
 			"locationCoords": "34.052235, -118.243683",
 			"venue": "Sunset Park Amphitheater",
 			"startDate": "2024-04-15T18:00:00",
@@ -2155,6 +2156,153 @@
 					"credit": "Unsplash"
 				}
 			]
+		},
+		{
+			"name": "wefas",
+			"description": "wqdef",
+			"location": "ersf",
+			"venue": "eaf",
+			"startDate": "2024-03-18T17:19",
+			"endDate": "2024-03-18T17:21",
+			"organiser": "aed",
+			"tags": ["efa"],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "wefas",
+			"id": 31
+		},
+		{
+			"name": "advadv",
+			"description": "advadv",
+			"location": "aef",
+			"venue": "aegae",
+			"startDate": "2024-03-29T09:59",
+			"endDate": "2024-03-19T09:05",
+			"organiser": "agae",
+			"tags": ["test"],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "advadv",
+			"id": 32
+		},
+		{
+			"name": "advadv",
+			"description": "advadv",
+			"location": "aef",
+			"venue": "aegae",
+			"startDate": "2024-03-29T09:59",
+			"endDate": "2024-03-19T09:05",
+			"organiser": "agae",
+			"tags": ["test"],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "advadv",
+			"id": 33
+		},
+		{
+			"name": "some event woth tags",
+			"description": "aef;jnefgkjnefg",
+			"location": "aefgr",
+			"venue": "ef",
+			"startDate": "2024-03-19T14:11",
+			"endDate": "2024-03-30T10:11",
+			"organiser": "vrs",
+			"tags": [
+				{
+					"value": 3,
+					"label": "option 3"
+				},
+				{
+					"value": 5,
+					"label": "option 5"
+				}
+			],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [],
+			"pendingApproval": true,
+			"slug": "some-event-woth-tags",
+			"id": 34
+		},
+		{
+			"name": "aefggfg",
+			"description": "aef",
+			"location": "aeg",
+			"venue": "aef",
+			"startDate": "2024-03-19T11:58",
+			"endDate": "2024-03-19T10:04",
+			"organiser": "geee",
+			"tags": [
+				{
+					"value": "rock",
+					"label": "Rock"
+				},
+				{
+					"value": "techno",
+					"label": "Techno"
+				}
+			],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "aefggfg",
+			"id": 35
+		},
+		{
+			"name": "bloop blorp event",
+			"description": "aef",
+			"location": "aeg",
+			"venue": "aef",
+			"startDate": "2024-03-19T11:58",
+			"endDate": "2024-03-19T10:04",
+			"organiser": "geee",
+			"tags": [
+				{
+					"value": "rock",
+					"label": "Rock"
+				},
+				{
+					"value": "techno",
+					"label": "Techno"
+				}
+			],
+			"promoImage": "/assets/demo-image-stretching.avif",
+			"images": [
+				{
+					"url": "",
+					"altText": "",
+					"credit": ""
+				}
+			],
+			"pendingApproval": true,
+			"slug": "blerrrg",
+			"id": 36
 		}
 	],
 	"performers": [
@@ -2197,7 +2345,6 @@
 			},
 			"teamId": "2",
 			"id": 2,
-
 			"performerId": 1
 		}
 	],
