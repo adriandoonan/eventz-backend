@@ -1,2428 +1,2371 @@
 {
-	"events": [
-		{
-			"id": 0,
-			"slug": "zero-event",
-			"name": "my test event zero",
-			"description": "Join us for the biggest music festival of the year! Enjoy live performances by top artists across multiple stages.",
-			"location": "New York City",
-			"locationCoords": "40.730610, -73.935242",
-			"venue": "Big Event Location",
-			"startDate": "2024-01-13T13:00:00",
-			"endDate": "2024-01-20T23:59:59",
-			"organiser": "Eventz Productions",
-			"tags": [
-				{
-					"value": "foodie",
-					"label": "Foodie"
-				},
-				{
-					"value": "networking",
-					"label": "Networking"
-				},
-				{
-					"value": "cultural",
-					"label": "Cultural"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/iamge1.png",
-					"altText": "an image showing something",
-					"credit": "Frankie Foto"
-				},
-				{
-					"url": "https://some.com/iamge2.png",
-					"altText": "an image showing another thing",
-					"credit": "Frankie Foto"
-				},
-				{
-					"url": "https://some.com/iamge3.png",
-					"altText": "a photo showing something",
-					"credit": "Frankie Foto"
-				},
-				{
-					"url": "https://some.com/iamge4.png",
-					"altText": "an new something in a photo",
-					"credit": "Frankie Foto"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/post/iamge1.png",
-					"altText": "an image showing something",
-					"credit": "Frankie Foto"
-				},
-				{
-					"url": "https://some.com/post/iamge2.png",
-					"altText": "an image showing another thing",
-					"credit": "Frankie Foto"
-				},
-				{
-					"url": "https://some.com/post/iamge3.png",
-					"altText": "a photo showing something",
-					"credit": "Frankie Foto"
-				},
-				{
-					"url": "https://some.com/post/iamge4.png",
-					"altText": "an new something in a photo",
-					"credit": "Frankie Foto"
-				}
-			]
-		},
-		{
-			"id": 1,
-			"slug": "first-event",
-			"name": "Spring Jazz Festival",
-			"description": "Experience the smooth sounds of jazz under the stars.\nJoin us for an unforgettable evening filled with soulful performances.",
-			"location": "Los Angeles",
-			"featuredEvent": true,
-			"locationCoords": "34.052235, -118.243683",
-			"venue": "Sunset Park Amphitheater",
-			"startDate": "2024-04-15T18:00:00",
-			"endDate": "2024-04-16T23:59:59",
-			"organiser": "JazzWorks Productions",
-			"tags": [
-				{
-					"value": "music",
-					"label": "Music"
-				},
-				{
-					"value": "nightlife",
-					"label": "Nightlife"
-				},
-				{
-					"value": "cultural",
-					"label": "Cultural"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/spring-jazz-image1.png",
-					"altText": "A saxophonist playing during the jazz festival",
-					"credit": "Ella Jazz"
-				},
-				{
-					"url": "https://some.com/spring-jazz-image2.png",
-					"altText": "Crowd enjoying jazz music",
-					"credit": "Ella Jazz"
-				},
-				{
-					"url": "https://some.com/spring-jazz-image3.png",
-					"altText": "Jazz band performing on stage",
-					"credit": "Ella Jazz"
-				},
-				{
-					"url": "https://some.com/spring-jazz-image4.png",
-					"altText": "Audience clapping during jazz performance",
-					"credit": "Ella Jazz"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/spring-jazz-post-image1.png",
-					"altText": "Audience enjoying after-party",
-					"credit": "Ella Jazz"
-				},
-				{
-					"url": "https://some.com/spring-jazz-post-image2.png",
-					"altText": "Night view of the venue",
-					"credit": "Ella Jazz"
-				},
-				{
-					"url": "https://some.com/spring-jazz-post-image3.png",
-					"altText": "Food stalls at the festival",
-					"credit": "Ella Jazz"
-				},
-				{
-					"url": "https://some.com/spring-jazz-post-image4.png",
-					"altText": "Jazz band members relaxing backstage",
-					"credit": "Ella Jazz"
-				}
-			]
-		},
-		{
-			"id": 2,
-			"slug": "second-event",
-			"name": "Summer Street Food Festival",
-			"description": "Indulge in the flavors of summer at our annual street food festival. Explore a wide array of cuisines from around the world, all in one place.",
-			"location": "London",
-			"locationCoords": "51.507351, -0.127758",
-			"venue": "Riverfront Park",
-			"startDate": "2024-07-20T11:00:00",
-			"endDate": "2024-07-22T22:00:00",
-			"organiser": "Global Gastronomy Events",
-			"tags": [
-				{
-					"value": "foodie",
-					"label": "Foodie"
-				},
-				{
-					"value": "cultural",
-					"label": "Cultural"
-				},
-				{
-					"value": "family",
-					"label": "Family"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/summer-street-food-image1.png",
-					"altText": "A variety of street food stalls",
-					"credit": "FoodieFocus"
-				},
-				{
-					"url": "https://some.com/summer-street-food-image2.png",
-					"altText": "People enjoying street food",
-					"credit": "FoodieFocus"
-				},
-				{
-					"url": "https://some.com/summer-street-food-image3.png",
-					"altText": "Chef cooking at a food stall",
-					"credit": "FoodieFocus"
-				},
-				{
-					"url": "https://some.com/summer-street-food-image4.png",
-					"altText": "Food truck offering delicious treats",
-					"credit": "FoodieFocus"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/summer-street-food-post-image1.png",
-					"altText": "Crowd enjoying after-party",
-					"credit": "FoodieFocus"
-				},
-				{
-					"url": "https://some.com/summer-street-food-post-image2.png",
-					"altText": "Night view of the festival area",
-					"credit": "FoodieFocus"
-				},
-				{
-					"url": "https://some.com/summer-street-food-post-image3.png",
-					"altText": "Food vendors packing up after the festival",
-					"credit": "FoodieFocus"
-				},
-				{
-					"url": "https://some.com/summer-street-food-post-image4.png",
-					"altText": "Chefs celebrating the success of the event",
-					"credit": "FoodieFocus"
-				}
-			]
-		},
-		{
-			"id": 3,
-			"slug": "third-event",
-			"name": "Winter Wonderland Ice Skating",
-			"description": "Glide through the magical Winter Wonderland on ice skates. Join us for a festive day filled with joy and laughter for all ages.",
-			"location": "New York City",
-			"locationCoords": "40.730610, -73.935242",
-			"venue": "Central Park Ice Rink",
-			"startDate": "2024-12-01T10:00:00",
-			"endDate": "2024-12-31T21:00:00",
-			"organiser": "Frosty Events Inc.",
-			"tags": [
-				{
-					"value": "family",
-					"label": "Family"
-				},
-				{
-					"value": "winter",
-					"label": "Winter"
-				},
-				{
-					"value": "entertainment",
-					"label": "Entertainment"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/winter-ice-skating-image1.png",
-					"altText": "People ice skating in Central Park",
-					"credit": "Frosty Fotos"
-				},
-				{
-					"url": "https://some.com/winter-ice-skating-image2.png",
-					"altText": "Children having fun on the ice",
-					"credit": "Frosty Fotos"
-				},
-				{
-					"url": "https://some.com/winter-ice-skating-image3.png",
-					"altText": "Couple skating together",
-					"credit": "Frosty Fotos"
-				},
-				{
-					"url": "https://some.com/winter-ice-skating-image4.png",
-					"altText": "Winter decorations at the rink",
-					"credit": "Frosty Fotos"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/winter-ice-skating-post-image1.png",
-					"altText": "Hot chocolate station after ice skating",
-					"credit": "Frosty Fotos"
-				},
-				{
-					"url": "https://some.com/winter-ice-skating-post-image2.png",
-					"altText": "Night view of the illuminated rink",
-					"credit": "Frosty Fotos"
-				},
-				{
-					"url": "https://some.com/winter-ice-skating-post-image3.png",
-					"altText": "Families enjoying post-skating activities",
-					"credit": "Frosty Fotos"
-				},
-				{
-					"url": "https://some.com/winter-ice-skating-post-image4.png",
-					"altText": "Skaters warming up by the fire pit",
-					"credit": "Frosty Fotos"
-				}
-			]
-		},
-		{
-			"id": 4,
-			"slug": "fourth-event",
-			"name": "Summer Music Festival",
-			"description": "Celebrate the spirit of summer with live music performances from top artists. Join us for a weekend of fun, music, and memories.",
-			"location": "Chicago",
-			"locationCoords": "41.8781, -87.6298",
-			"venue": "Grant Park",
-			"startDate": "2024-06-21T12:00:00",
-			"endDate": "2024-06-23T23:59:59",
-			"organiser": "MusicMania Events",
-			"tags": [
-				{
-					"value": "music",
-					"label": "Music"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "summer",
-					"label": "Summer"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/summer-music-image1.png",
-					"altText": "Crowd cheering at the music festival",
-					"credit": "MusicMania"
-				},
-				{
-					"url": "https://some.com/summer-music-image2.png",
-					"altText": "Artist performing on stage",
-					"credit": "MusicMania"
-				},
-				{
-					"url": "https://some.com/summer-music-image3.png",
-					"altText": "Concertgoers enjoying the festival",
-					"credit": "MusicMania"
-				},
-				{
-					"url": "https://some.com/summer-music-image4.png",
-					"altText": "Beautiful sunset at the festival",
-					"credit": "MusicMania"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/summer-music-post-image1.png",
-					"altText": "Fireworks display after the festival",
-					"credit": "MusicMania"
-				},
-				{
-					"url": "https://some.com/summer-music-post-image2.png",
-					"altText": "Night view of the festival grounds",
-					"credit": "MusicMania"
-				},
-				{
-					"url": "https://some.com/summer-music-post-image3.png",
-					"altText": "Food vendors at the festival",
-					"credit": "MusicMania"
-				},
-				{
-					"url": "https://some.com/summer-music-post-image4.png",
-					"altText": "Happy festival attendees",
-					"credit": "MusicMania"
-				}
-			]
-		},
-		{
-			"id": 5,
-			"slug": "fifth-event",
-			"name": "Tech Conference 2024",
-			"description": "Stay ahead of the curve with the latest in technology trends. Join industry experts and innovators for insightful sessions and networking opportunities.",
-			"location": "San Francisco",
-			"locationCoords": "37.7749, -122.4194",
-			"venue": "Moscone Center",
-			"startDate": "2024-09-10T09:00:00",
-			"endDate": "2024-09-12T18:00:00",
-			"organiser": "TechTalk Conferences",
-			"tags": [
-				{
-					"value": "technology",
-					"label": "Technology"
-				},
-				{
-					"value": "innovation",
-					"label": "Innovation"
-				},
-				{
-					"value": "networking",
-					"label": "Networking"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/tech-conference-image1.png",
-					"altText": "Keynote speaker on stage",
-					"credit": "TechTalk Conferences"
-				},
-				{
-					"url": "https://some.com/tech-conference-image2.png",
-					"altText": "Panel discussion at the conference",
-					"credit": "TechTalk Conferences"
-				},
-				{
-					"url": "https://some.com/tech-conference-image3.png",
-					"altText": "Attendees networking at the event",
-					"credit": "TechTalk Conferences"
-				},
-				{
-					"url": "https://some.com/tech-conference-image4.png",
-					"altText": "Exhibition booths at the conference",
-					"credit": "TechTalk Conferences"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/tech-conference-post-image1.png",
-					"altText": "Attendees exchanging business cards",
-					"credit": "TechTalk Conferences"
-				},
-				{
-					"url": "https://some.com/tech-conference-post-image2.png",
-					"altText": "Networking drinks reception",
-					"credit": "TechTalk Conferences"
-				},
-				{
-					"url": "https://some.com/tech-conference-post-image3.png",
-					"altText": "Tech gadgets showcase",
-					"credit": "TechTalk Conferences"
-				},
-				{
-					"url": "https://some.com/tech-conference-post-image4.png",
-					"altText": "Conference attendees at lunch break",
-					"credit": "TechTalk Conferences"
-				}
-			]
-		},
-		{
-			"id": 6,
-			"slug": "sixth-event",
-			"name": "Art Exhibition: Modern Masters",
-			"description": "Discover the brilliance of modern art with works from renowned masters. Immerse yourself in creativity and inspiration at this exclusive exhibition.",
-			"location": "Paris",
-			"locationCoords": "48.8566, 2.3522",
-			"venue": "Grand Palais",
-			"startDate": "2024-11-01T10:00:00",
-			"endDate": "2024-11-30T18:00:00",
-			"organiser": "Artistic Impressions",
-			"tags": [
-				{
-					"value": "art",
-					"label": "Art"
-				},
-				{
-					"value": "culture",
-					"label": "Culture"
-				},
-				{
-					"value": "exhibition",
-					"label": "Exhibition"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/modern-masters-image1.png",
-					"altText": "Paintings displayed at the exhibition",
-					"credit": "Artistic Impressions"
-				},
-				{
-					"url": "https://some.com/modern-masters-image2.png",
-					"altText": "Sculptures showcased at the venue",
-					"credit": "Artistic Impressions"
-				},
-				{
-					"url": "https://some.com/modern-masters-image3.png",
-					"altText": "Art enthusiasts exploring the exhibition",
-					"credit": "Artistic Impressions"
-				},
-				{
-					"url": "https://some.com/modern-masters-image4.png",
-					"altText": "Gallery view of the art pieces",
-					"credit": "Artistic Impressions"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/modern-masters-post-image1.png",
-					"altText": "Visitors discussing artworks",
-					"credit": "Artistic Impressions"
-				},
-				{
-					"url": "https://some.com/modern-masters-post-image2.png",
-					"altText": "Gallery reception after the exhibition",
-					"credit": "Artistic Impressions"
-				},
-				{
-					"url": "https://some.com/modern-masters-post-image3.png",
-					"altText": "Artists interacting with attendees",
-					"credit": "Artistic Impressions"
-				},
-				{
-					"url": "https://some.com/modern-masters-post-image4.png",
-					"altText": "Art lovers browsing the exhibition",
-					"credit": "Artistic Impressions"
-				}
-			]
-		},
-		{
-			"id": 7,
-			"slug": "seventh-event",
-			"name": "Oktoberfest Celebration",
-			"description": "Experience the world-famous Oktoberfest celebration right here in Munich. Enjoy traditional Bavarian music, food, and of course, beer!",
-			"location": "Munich",
-			"locationCoords": "48.1351, 11.5820",
-			"venue": "Theresienwiese",
-			"startDate": "2024-09-21T12:00:00",
-			"endDate": "2024-10-06T23:59:59",
-			"organiser": "Bavarian Events GmbH",
-			"tags": [
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "beer",
-					"label": "Beer"
-				},
-				{
-					"value": "culture",
-					"label": "Culture"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/oktoberfest-image1.png",
-					"altText": "Crowd at the Oktoberfest celebration",
-					"credit": "Bavarian Events GmbH"
-				},
-				{
-					"url": "https://some.com/oktoberfest-image2.png",
-					"altText": "Traditional German music performance",
-					"credit": "Bavarian Events GmbH"
-				},
-				{
-					"url": "https://some.com/oktoberfest-image3.png",
-					"altText": "People raising beer steins in celebration",
-					"credit": "Bavarian Events GmbH"
-				},
-				{
-					"url": "https://some.com/oktoberfest-image4.png",
-					"altText": "Oktoberfest tents at night",
-					"credit": "Bavarian Events GmbH"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/oktoberfest-post-image1.png",
-					"altText": "Fireworks display at the end of Oktoberfest",
-					"credit": "Bavarian Events GmbH"
-				},
-				{
-					"url": "https://some.com/oktoberfest-post-image2.png",
-					"altText": "Night view of the festival grounds",
-					"credit": "Bavarian Events GmbH"
-				},
-				{
-					"url": "https://some.com/oktoberfest-post-image3.png",
-					"altText": "Traditional Bavarian clothing showcase",
-					"credit": "Bavarian Events GmbH"
-				},
-				{
-					"url": "https://some.com/oktoberfest-post-image4.png",
-					"altText": "Happy festival attendees enjoying the festivities",
-					"credit": "Bavarian Events GmbH"
-				}
-			]
-		},
-		{
-			"id": 8,
-			"slug": "eighth-event",
-			"name": "Fashion Week Paris",
-			"description": "Be part of the glamour and style at Fashion Week Paris. Witness the latest trends showcased by top designers from around the world.",
-			"location": "Paris",
-			"locationCoords": "48.8566, 2.3522",
-			"venue": "Carrousel du Louvre",
-			"startDate": "2024-10-01T09:00:00",
-			"endDate": "2024-10-08T18:00:00",
-			"organiser": "Fashion Forward Events",
-			"tags": [
-				{
-					"value": "fashion",
-					"label": "Fashion"
-				},
-				{
-					"value": "style",
-					"label": "Style"
-				},
-				{
-					"value": "luxury",
-					"label": "Luxury"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/fashion-week-paris-image1.png",
-					"altText": "Fashion models on the runway",
-					"credit": "Fashion Forward Events"
-				},
-				{
-					"url": "https://some.com/fashion-week-paris-image2.png",
-					"altText": "Designer showcasing their collection",
-					"credit": "Fashion Forward Events"
-				},
-				{
-					"url": "https://some.com/fashion-week-paris-image3.png",
-					"altText": "Attendees admiring fashion pieces",
-					"credit": "Fashion Forward Events"
-				},
-				{
-					"url": "https://some.com/fashion-week-paris-image4.png",
-					"altText": "Backstage preparations",
-					"credit": "Fashion Forward Events"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/fashion-week-paris-post-image1.png",
-					"altText": "Fashionistas networking at the event",
-					"credit": "Fashion Forward Events"
-				},
-				{
-					"url": "https://some.com/fashion-week-paris-post-image2.png",
-					"altText": "Night view of Paris skyline",
-					"credit": "Fashion Forward Events"
-				},
-				{
-					"url": "https://some.com/fashion-week-paris-post-image3.png",
-					"altText": "Fashion industry professionals at a party",
-					"credit": "Fashion Forward Events"
-				},
-				{
-					"url": "https://some.com/fashion-week-paris-post-image4.png",
-					"altText": "Celebrity spotted at Fashion Week Paris",
-					"credit": "Fashion Forward Events"
-				}
-			]
-		},
-		{
-			"id": 9,
-			"slug": "ninth-event",
-			"name": "Cultural Festival Barcelona",
-			"description": "Immerse yourself in the rich culture of Barcelona at our vibrant cultural festival. Experience music, dance, food, and art from Catalonia and beyond.",
-			"location": "Barcelona",
-			"locationCoords": "41.3851, 2.1734",
-			"venue": "Parc de la Ciutadella",
-			"startDate": "2024-08-15T10:00:00",
-			"endDate": "2024-08-17T22:00:00",
-			"organiser": "Barcelona Cultural Society",
-			"tags": [
-				{
-					"value": "cultural",
-					"label": "Cultural"
-				},
-				{
-					"value": "music",
-					"label": "Music"
-				},
-				{
-					"value": "art",
-					"label": "Art"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/cultural-festival-barcelona-image1.png",
-					"altText": "Traditional Catalan dancers",
-					"credit": "Barcelona Cultural Society"
-				},
-				{
-					"url": "https://some.com/cultural-festival-barcelona-image2.png",
-					"altText": "Local musicians performing",
-					"credit": "Barcelona Cultural Society"
-				},
-				{
-					"url": "https://some.com/cultural-festival-barcelona-image3.png",
-					"altText": "Artisans showcasing their crafts",
-					"credit": "Barcelona Cultural Society"
-				},
-				{
-					"url": "https://some.com/cultural-festival-barcelona-image4.png",
-					"altText": "Colorful decorations at the festival",
-					"credit": "Barcelona Cultural Society"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/cultural-festival-barcelona-post-image1.png",
-					"altText": "Fireworks display at the festival finale",
-					"credit": "Barcelona Cultural Society"
-				},
-				{
-					"url": "https://some.com/cultural-festival-barcelona-post-image2.png",
-					"altText": "Night view of the festival atmosphere",
-					"credit": "Barcelona Cultural Society"
-				},
-				{
-					"url": "https://some.com/cultural-festival-barcelona-post-image3.png",
-					"altText": "Local cuisine stalls at the festival",
-					"credit": "Barcelona Cultural Society"
-				},
-				{
-					"url": "https://some.com/cultural-festival-barcelona-post-image4.png",
-					"altText": "Participants enjoying a cultural parade",
-					"credit": "Barcelona Cultural Society"
-				}
-			]
-		},
-		{
-			"id": 10,
-			"slug": "tenth-event",
-			"name": "Berlin International Film Festival",
-			"description": "Join us for the renowned Berlin International Film Festival, showcasing the best of contemporary cinema from around the world. Experience premieres, screenings, and industry discussions.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Berlinale Palast",
-			"startDate": "2024-02-15T10:00:00",
-			"endDate": "2024-02-25T23:59:59",
-			"organiser": "Berlinale Events GmbH",
-			"tags": [
-				{
-					"value": "film",
-					"label": "Film"
-				},
-				{
-					"value": "cinema",
-					"label": "Cinema"
-				},
-				{
-					"value": "culture",
-					"label": "Culture"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/berlin-film-festival-image1.png",
-					"altText": "Red carpet event at the Berlin International Film Festival",
-					"credit": "Berlinale Events GmbH"
-				},
-				{
-					"url": "https://some.com/berlin-film-festival-image2.png",
-					"altText": "Filmmakers at a press conference",
-					"credit": "Berlinale Events GmbH"
-				},
-				{
-					"url": "https://some.com/berlin-film-festival-image3.png",
-					"altText": "Audience watching a film screening",
-					"credit": "Berlinale Events GmbH"
-				},
-				{
-					"url": "https://some.com/berlin-film-festival-image4.png",
-					"altText": "Award ceremony at the festival",
-					"credit": "Berlinale Events GmbH"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/berlin-film-festival-post-image1.png",
-					"altText": "Film enthusiasts discussing movies",
-					"credit": "Berlinale Events GmbH"
-				},
-				{
-					"url": "https://some.com/berlin-film-festival-post-image2.png",
-					"altText": "Night view of Berlinale Palast",
-					"credit": "Berlinale Events GmbH"
-				},
-				{
-					"url": "https://some.com/berlin-film-festival-post-image3.png",
-					"altText": "Filmmakers networking at the festival",
-					"credit": "Berlinale Events GmbH"
-				},
-				{
-					"url": "https://some.com/berlin-film-festival-post-image4.png",
-					"altText": "Film critics discussing festival highlights",
-					"credit": "Berlinale Events GmbH"
-				}
-			]
-		},
-		{
-			"id": 11,
-			"slug": "eleventh-event",
-			"name": "Berlin Fashion Week",
-			"description": "Experience the latest trends and designs at Berlin Fashion Week. Join fashionistas, designers, and influencers for runway shows, exhibitions, and parties.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Kraftwerk Berlin",
-			"startDate": "2024-07-01T09:00:00",
-			"endDate": "2024-07-06T18:00:00",
-			"organiser": "Berlin Fashion Council",
-			"tags": [
-				{
-					"value": "fashion",
-					"label": "Fashion"
-				},
-				{
-					"value": "style",
-					"label": "Style"
-				},
-				{
-					"value": "trends",
-					"label": "Trends"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/berlin-fashion-week-image1.png",
-					"altText": "Fashion models walking the runway",
-					"credit": "Berlin Fashion Council"
-				},
-				{
-					"url": "https://some.com/berlin-fashion-week-image2.png",
-					"altText": "Designer showcasing their collection",
-					"credit": "Berlin Fashion Council"
-				},
-				{
-					"url": "https://some.com/berlin-fashion-week-image3.png",
-					"altText": "Fashionistas attending a fashion show",
-					"credit": "Berlin Fashion Council"
-				},
-				{
-					"url": "https://some.com/berlin-fashion-week-image4.png",
-					"altText": "Backstage preparations before a show",
-					"credit": "Berlin Fashion Council"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/berlin-fashion-week-post-image1.png",
-					"altText": "Fashion Week attendees at a networking event",
-					"credit": "Berlin Fashion Council"
-				},
-				{
-					"url": "https://some.com/berlin-fashion-week-post-image2.png",
-					"altText": "Night view of Berlin during Fashion Week",
-					"credit": "Berlin Fashion Council"
-				},
-				{
-					"url": "https://some.com/berlin-fashion-week-post-image3.png",
-					"altText": "Fashion industry professionals at a panel discussion",
-					"credit": "Berlin Fashion Council"
-				},
-				{
-					"url": "https://some.com/berlin-fashion-week-post-image4.png",
-					"altText": "Fashion designers celebrating after a successful show",
-					"credit": "Berlin Fashion Council"
-				}
-			]
-		},
-		{
-			"id": 12,
-			"slug": "twelfth-event",
-			"name": "Berlin Music Week",
-			"description": "Celebrate the diversity of music at Berlin Music Week. Enjoy live performances, DJ sets, and music conferences featuring artists from various genres.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Various Venues",
-			"startDate": "2024-09-02T12:00:00",
-			"endDate": "2024-09-07T23:59:59",
-			"organiser": "Berlin Music Association",
-			"tags": [
-				{
-					"value": "music",
-					"label": "Music"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "concerts",
-					"label": "Concerts"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/berlin-music-week-image1.png",
-					"altText": "Live concert performance at Berlin Music Week",
-					"credit": "Berlin Music Association"
-				},
-				{
-					"url": "https://some.com/berlin-music-week-image2.png",
-					"altText": "DJ spinning tracks at a music venue",
-					"credit": "Berlin Music Association"
-				},
-				{
-					"url": "https://some.com/berlin-music-week-image3.png",
-					"altText": "Audience dancing at a music festival",
-					"credit": "Berlin Music Association"
-				},
-				{
-					"url": "https://some.com/berlin-music-week-image4.png",
-					"altText": "Music conference panel discussion",
-					"credit": "Berlin Music Association"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/berlin-music-week-post-image1.png",
-					"altText": "Music fans enjoying after-party",
-					"credit": "Berlin Music Association"
-				},
-				{
-					"url": "https://some.com/berlin-music-week-post-image2.png",
-					"altText": "Night view of Berlin during Music Week",
-					"credit": "Berlin Music Association"
-				},
-				{
-					"url": "https://some.com/berlin-music-week-post-image3.png",
-					"altText": "Music industry professionals networking",
-					"credit": "Berlin Music Association"
-				},
-				{
-					"url": "https://some.com/berlin-music-week-post-image4.png",
-					"altText": "Concertgoers enjoying outdoor performance",
-					"credit": "Berlin Music Association"
-				}
-			]
-		},
-		{
-			"id": 13,
-			"slug": "thirteenth-event",
-			"name": "Berlin Art Week",
-			"description": "Experience the vibrant art scene of Berlin at Berlin Art Week. Explore exhibitions, galleries, and special events showcasing contemporary art from around the world.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Various Galleries",
-			"startDate": "2024-09-18T10:00:00",
-			"endDate": "2024-09-22T18:00:00",
-			"organiser": "Berlin Art Association",
-			"tags": [
-				{
-					"value": "art",
-					"label": "Art"
-				},
-				{
-					"value": "exhibition",
-					"label": "Exhibition"
-				},
-				{
-					"value": "contemporary",
-					"label": "Contemporary"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/berlin-art-week-image1.png",
-					"altText": "Artwork displayed at Berlin Art Week",
-					"credit": "Berlin Art Association"
-				},
-				{
-					"url": "https://some.com/berlin-art-week-image2.png",
-					"altText": "Visitors admiring contemporary art",
-					"credit": "Berlin Art Association"
-				},
-				{
-					"url": "https://some.com/berlin-art-week-image3.png",
-					"altText": "Artists discussing their work",
-					"credit": "Berlin Art Association"
-				},
-				{
-					"url": "https://some.com/berlin-art-week-image4.png",
-					"altText": "Interactive art installation",
-					"credit": "Berlin Art Association"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/berlin-art-week-post-image1.png",
-					"altText": "Art enthusiasts at a gallery opening",
-					"credit": "Berlin Art Association"
-				},
-				{
-					"url": "https://some.com/berlin-art-week-post-image2.png",
-					"altText": "Night view of Berlin during Art Week",
-					"credit": "Berlin Art Association"
-				},
-				{
-					"url": "https://some.com/berlin-art-week-post-image3.png",
-					"altText": "Artists' reception at an exhibition",
-					"credit": "Berlin Art Association"
-				},
-				{
-					"url": "https://some.com/berlin-art-week-post-image4.png",
-					"altText": "Art lovers exploring galleries",
-					"credit": "Berlin Art Association"
-				}
-			]
-		},
-		{
-			"id": 14,
-			"slug": "fourteenth-event",
-			"name": "Berlin Food Festival",
-			"description": "Savor the flavors of Berlin at the Berlin Food Festival. Indulge in culinary delights from local chefs, street food vendors, and international cuisines.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Markthalle Neun",
-			"startDate": "2024-05-10T12:00:00",
-			"endDate": "2024-05-12T23:59:59",
-			"organiser": "Berlin Food Society",
-			"tags": [
-				{
-					"value": "food",
-					"label": "Food"
-				},
-				{
-					"value": "cuisine",
-					"label": "Cuisine"
-				},
-				{
-					"value": "tasting",
-					"label": "Tasting"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/berlin-food-festival-image1.png",
-					"altText": "Variety of dishes at Berlin Food Festival",
-					"credit": "Berlin Food Society"
-				},
-				{
-					"url": "https://some.com/berlin-food-festival-image2.png",
-					"altText": "Street food vendors at the festival",
-					"credit": "Berlin Food Society"
-				},
-				{
-					"url": "https://some.com/berlin-food-festival-image3.png",
-					"altText": "Chefs preparing food at cooking stations",
-					"credit": "Berlin Food Society"
-				},
-				{
-					"url": "https://some.com/berlin-food-festival-image4.png",
-					"altText": "People enjoying food and drinks",
-					"credit": "Berlin Food Society"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/berlin-food-festival-post-image1.png",
-					"altText": "Food festival attendees at a tasting event",
-					"credit": "Berlin Food Society"
-				},
-				{
-					"url": "https://some.com/berlin-food-festival-post-image2.png",
-					"altText": "Night market at Berlin Food Festival",
-					"credit": "Berlin Food Society"
-				},
-				{
-					"url": "https://some.com/berlin-food-festival-post-image3.png",
-					"altText": "Local vendors showcasing their products",
-					"credit": "Berlin Food Society"
-				},
-				{
-					"url": "https://some.com/berlin-food-festival-post-image4.png",
-					"altText": "Food festival ambiance",
-					"credit": "Berlin Food Society"
-				}
-			]
-		},
-		{
-			"id": 15,
-			"slug": "fifteenth-event",
-			"name": "Berlin Technology Summit",
-			"description": "Explore the future of technology at the Berlin Technology Summit. Engage with industry leaders, innovators, and experts in discussions, workshops, and demonstrations.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Estrel Berlin",
-			"startDate": "2024-11-05T09:00:00",
-			"endDate": "2024-11-07T18:00:00",
-			"organiser": "Berlin Tech Alliance",
-			"tags": [
-				{
-					"value": "technology",
-					"label": "Technology"
-				},
-				{
-					"value": "innovation",
-					"label": "Innovation"
-				},
-				{
-					"value": "summit",
-					"label": "Summit"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/berlin-technology-summit-image1.png",
-					"altText": "Keynote speaker addressing the audience",
-					"credit": "Berlin Tech Alliance"
-				},
-				{
-					"url": "https://some.com/berlin-technology-summit-image2.png",
-					"altText": "Tech demos at the summit",
-					"credit": "Berlin Tech Alliance"
-				},
-				{
-					"url": "https://some.com/berlin-technology-summit-image3.png",
-					"altText": "Participants engaging in a workshop",
-					"credit": "Berlin Tech Alliance"
-				},
-				{
-					"url": "https://some.com/berlin-technology-summit-image4.png",
-					"altText": "Networking session at the summit",
-					"credit": "Berlin Tech Alliance"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/berlin-technology-summit-post-image1.png",
-					"altText": "Tech enthusiasts discussing innovations",
-					"credit": "Berlin Tech Alliance"
-				},
-				{
-					"url": "https://some.com/berlin-technology-summit-post-image2.png",
-					"altText": "Night view of Berlin skyline",
-					"credit": "Berlin Tech Alliance"
-				},
-				{
-					"url": "https://some.com/berlin-technology-summit-post-image3.png",
-					"altText": "Panel discussion on future technologies",
-					"credit": "Berlin Tech Alliance"
-				},
-				{
-					"url": "https://some.com/berlin-technology-summit-post-image4.png",
-					"altText": "Tech leaders networking at the summit",
-					"credit": "Berlin Tech Alliance"
-				}
-			]
-		},
-		{
-			"id": 16,
-			"slug": "sixteenth-event",
-			"name": "Potsdam Palace Night",
-			"description": "Experience the magic of Potsdam Palace Night, where historic palaces and gardens are illuminated with enchanting lights. Enjoy guided tours, concerts, and culinary delights.",
-			"location": "Potsdam",
-			"locationCoords": "52.3906, 13.0645",
-			"venue": "Sanssouci Palace",
-			"startDate": "2024-07-20T18:00:00",
-			"endDate": "2024-07-21T02:00:00",
-			"organiser": "Potsdam Cultural Association",
-			"tags": [
-				{
-					"value": "cultural",
-					"label": "Cultural"
-				},
-				{
-					"value": "night event",
-					"label": "Night Event"
-				},
-				{
-					"value": "palace",
-					"label": "Palace"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/potsdam-palace-night-image1.png",
-					"altText": "Sanssouci Palace illuminated at night",
-					"credit": "Potsdam Cultural Association"
-				},
-				{
-					"url": "https://some.com/potsdam-palace-night-image2.png",
-					"altText": "Visitors enjoying the illuminated gardens",
-					"credit": "Potsdam Cultural Association"
-				},
-				{
-					"url": "https://some.com/potsdam-palace-night-image3.png",
-					"altText": "Concert performance at the palace",
-					"credit": "Potsdam Cultural Association"
-				},
-				{
-					"url": "https://some.com/potsdam-palace-night-image4.png",
-					"altText": "Dining area with illuminated ambiance",
-					"credit": "Potsdam Cultural Association"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/potsdam-palace-night-post-image1.png",
-					"altText": "Fireworks display at the palace",
-					"credit": "Potsdam Cultural Association"
-				},
-				{
-					"url": "https://some.com/potsdam-palace-night-post-image2.png",
-					"altText": "Night view of Sanssouci Palace",
-					"credit": "Potsdam Cultural Association"
-				},
-				{
-					"url": "https://some.com/potsdam-palace-night-post-image3.png",
-					"altText": "Cultural performances in the gardens",
-					"credit": "Potsdam Cultural Association"
-				},
-				{
-					"url": "https://some.com/potsdam-palace-night-post-image4.png",
-					"altText": "Visitors enjoying the festivities",
-					"credit": "Potsdam Cultural Association"
-				}
-			]
-		},
-		{
-			"id": 17,
-			"slug": "seventeenth-event",
-			"name": "Potsdam Music Festival",
-			"description": "Enjoy a weekend of music at the Potsdam Music Festival. Featuring classical concerts, jazz performances, and contemporary music acts in picturesque settings.",
-			"location": "Potsdam",
-			"locationCoords": "52.3906, 13.0645",
-			"venue": "New Palace",
-			"startDate": "2024-08-10T10:00:00",
-			"endDate": "2024-08-12T23:59:59",
-			"organiser": "Potsdam Music Society",
-			"tags": [
-				{
-					"value": "music",
-					"label": "Music"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "concerts",
-					"label": "Concerts"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/potsdam-music-festival-image1.png",
-					"altText": "Classical concert at New Palace",
-					"credit": "Potsdam Music Society"
-				},
-				{
-					"url": "https://some.com/potsdam-music-festival-image2.png",
-					"altText": "Jazz band performing in the gardens",
-					"credit": "Potsdam Music Society"
-				},
-				{
-					"url": "https://some.com/potsdam-music-festival-image3.png",
-					"altText": "Contemporary music stage",
-					"credit": "Potsdam Music Society"
-				},
-				{
-					"url": "https://some.com/potsdam-music-festival-image4.png",
-					"altText": "Audience enjoying a music performance",
-					"credit": "Potsdam Music Society"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/potsdam-music-festival-post-image1.png",
-					"altText": "Night view of New Palace during the festival",
-					"credit": "Potsdam Music Society"
-				},
-				{
-					"url": "https://some.com/potsdam-music-festival-post-image2.png",
-					"altText": "Fireworks finale at the music festival",
-					"credit": "Potsdam Music Society"
-				},
-				{
-					"url": "https://some.com/potsdam-music-festival-post-image3.png",
-					"altText": "Music lovers enjoying the atmosphere",
-					"credit": "Potsdam Music Society"
-				},
-				{
-					"url": "https://some.com/potsdam-music-festival-post-image4.png",
-					"altText": "Artist meet-and-greet session",
-					"credit": "Potsdam Music Society"
-				}
-			]
-		},
-		{
-			"id": 18,
-			"slug": "eighteenth-event",
-			"name": "Potsdam Wine Festival",
-			"description": "Taste exquisite wines at the Potsdam Wine Festival. Explore a variety of regional and international wines while enjoying live music, food pairings, and wine seminars.",
-			"location": "Potsdam",
-			"locationCoords": "52.3906, 13.0645",
-			"venue": "Luisenplatz",
-			"startDate": "2024-09-28T12:00:00",
-			"endDate": "2024-09-30T23:59:59",
-			"organiser": "Potsdam Wine Guild",
-			"tags": [
-				{
-					"value": "wine",
-					"label": "Wine"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "tasting",
-					"label": "Tasting"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/potsdam-wine-festival-image1.png",
-					"altText": "Wine tasting booths at Luisenplatz",
-					"credit": "Potsdam Wine Guild"
-				},
-				{
-					"url": "https://some.com/potsdam-wine-festival-image2.png",
-					"altText": "Wine connoisseurs sampling different varieties",
-					"credit": "Potsdam Wine Guild"
-				},
-				{
-					"url": "https://some.com/potsdam-wine-festival-image3.png",
-					"altText": "Live music entertainment at the festival",
-					"credit": "Potsdam Wine Guild"
-				},
-				{
-					"url": "https://some.com/potsdam-wine-festival-image4.png",
-					"altText": "Wine and food pairing demonstration",
-					"credit": "Potsdam Wine Guild"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/potsdam-wine-festival-post-image1.png",
-					"altText": "Night view of Luisenplatz during the wine festival",
-					"credit": "Potsdam Wine Guild"
-				},
-				{
-					"url": "https://some.com/potsdam-wine-festival-post-image2.png",
-					"altText": "Wine enthusiasts enjoying the festival atmosphere",
-					"credit": "Potsdam Wine Guild"
-				},
-				{
-					"url": "https://some.com/potsdam-wine-festival-post-image3.png",
-					"altText": "Wine seminar in progress",
-					"credit": "Potsdam Wine Guild"
-				},
-				{
-					"url": "https://some.com/potsdam-wine-festival-post-image4.png",
-					"altText": "Local wineries showcasing their products",
-					"credit": "Potsdam Wine Guild"
-				}
-			]
-		},
-		{
-			"id": 19,
-			"slug": "nineteenth-event",
-			"name": "Brandenburg Nature Retreat",
-			"description": "Escape to the tranquility of Brandenburg's natural landscapes at the Nature Retreat. Enjoy hiking, birdwatching, and mindfulness activities amidst scenic forests and lakes.",
-			"location": "Brandenburg",
-			"locationCoords": "52.6367, 13.1177",
-			"venue": "Schorfheide-Chorin Biosphere Reserve",
-			"startDate": "2024-06-15T09:00:00",
-			"endDate": "2024-06-17T17:00:00",
-			"organiser": "Brandenburg Tourism Board",
-			"tags": [
-				{
-					"value": "nature",
-					"label": "Nature"
-				},
-				{
-					"value": "retreat",
-					"label": "Retreat"
-				},
-				{
-					"value": "outdoor",
-					"label": "Outdoor"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-image1.png",
-					"altText": "Hikers on a trail in Schorfheide-Chorin Biosphere Reserve",
-					"credit": "Brandenburg Tourism Board"
-				},
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-image2.png",
-					"altText": "Birdwatchers observing wildlife",
-					"credit": "Brandenburg Tourism Board"
-				},
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-image3.png",
-					"altText": "Yoga session by the lake",
-					"credit": "Brandenburg Tourism Board"
-				},
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-image4.png",
-					"altText": "Kayakers on a tranquil lake",
-					"credit": "Brandenburg Tourism Board"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-post-image1.png",
-					"altText": "Sunset over the biosphere reserve",
-					"credit": "Brandenburg Tourism Board"
-				},
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-post-image2.png",
-					"altText": "Campfire gathering under the stars",
-					"credit": "Brandenburg Tourism Board"
-				},
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-post-image3.png",
-					"altText": "Nature photography workshop",
-					"credit": "Brandenburg Tourism Board"
-				},
-				{
-					"url": "https://some.com/brandenburg-nature-retreat-post-image4.png",
-					"altText": "Participants enjoying a picnic",
-					"credit": "Brandenburg Tourism Board"
-				}
-			]
-		},
-		{
-			"id": 20,
-			"slug": "twentieth-event",
-			"name": "Brandenburg Beer Festival",
-			"description": "Celebrate Bavarian brewing traditions at the Brandenburg Beer Festival. Sample a wide selection of beers, enjoy live music, and indulge in hearty Bavarian cuisine.",
-			"location": "Brandenburg",
-			"locationCoords": "52.3906, 13.1177",
-			"venue": "Brandenburg Old Town",
-			"startDate": "2024-08-24T16:00:00",
-			"endDate": "2024-08-26T23:59:59",
-			"organiser": "Brandenburg Brewers Guild",
-			"tags": [
-				{
-					"value": "beer",
-					"label": "Beer"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "cuisine",
-					"label": "Cuisine"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/brandenburg-beer-festival-image1.png",
-					"altText": "Beer tents at Brandenburg Old Town",
-					"credit": "Brandenburg Brewers Guild"
-				},
-				{
-					"url": "https://some.com/brandenburg-beer-festival-image2.png",
-					"altText": "Beer tasting glasses with various brews",
-					"credit": "Brandenburg Brewers Guild"
-				},
-				{
-					"url": "https://some.com/brandenburg-beer-festival-image3.png",
-					"altText": "Traditional Bavarian music performance",
-					"credit": "Brandenburg Brewers Guild"
-				},
-				{
-					"url": "https://some.com/brandenburg-beer-festival-image4.png",
-					"altText": "Pretzels and sausages at a food stall",
-					"credit": "Brandenburg Brewers Guild"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/brandenburg-beer-festival-post-image1.png",
-					"altText": "Night view of the beer festival",
-					"credit": "Brandenburg Brewers Guild"
-				},
-				{
-					"url": "https://some.com/brandenburg-beer-festival-post-image2.png",
-					"altText": "Beer festival atmosphere",
-					"credit": "Brandenburg Brewers Guild"
-				},
-				{
-					"url": "https://some.com/brandenburg-beer-festival-post-image3.png",
-					"altText": "Cheers with beer mugs",
-					"credit": "Brandenburg Brewers Guild"
-				},
-				{
-					"url": "https://some.com/brandenburg-beer-festival-post-image4.png",
-					"altText": "Participants enjoying beer and music",
-					"credit": "Brandenburg Brewers Guild"
-				}
-			]
-		},
-		{
-			"id": 21,
-			"slug": "twenty-first-event",
-			"name": "Brandenburg Castle Run",
-			"description": "Experience the thrill of the Brandenburg Castle Run, a scenic race through historic castles and picturesque landscapes. Choose from various distances suitable for all ages and skill levels.",
-			"location": "Brandenburg",
-			"locationCoords": "52.3906, 13.1177",
-			"venue": "Rheinsberg Castle",
-			"startDate": "2024-10-12T08:00:00",
-			"endDate": "2024-10-12T12:00:00",
-			"organiser": "Brandenburg Athletics Association",
-			"tags": [
-				{
-					"value": "sports",
-					"label": "Sports"
-				},
-				{
-					"value": "running",
-					"label": "Running"
-				},
-				{
-					"value": "race",
-					"label": "Race"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://some.com/brandenburg-castle-run-image1.png",
-					"altText": "Runners passing by Rheinsberg Castle",
-					"credit": "Brandenburg Athletics Association"
-				},
-				{
-					"url": "https://some.com/brandenburg-castle-run-image2.png",
-					"altText": "Scenic route through the countryside",
-					"credit": "Brandenburg Athletics Association"
-				},
-				{
-					"url": "https://some.com/brandenburg-castle-run-image3.png",
-					"altText": "Finish line celebration",
-					"credit": "Brandenburg Athletics Association"
-				},
-				{
-					"url": "https://some.com/brandenburg-castle-run-image4.png",
-					"altText": "Runners warming up before the race",
-					"credit": "Brandenburg Athletics Association"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://some.com/brandenburg-castle-run-post-image1.png",
-					"altText": "Award ceremony at Rheinsberg Castle",
-					"credit": "Brandenburg Athletics Association"
-				},
-				{
-					"url": "https://some.com/brandenburg-castle-run-post-image2.png",
-					"altText": "Runners celebrating their achievements",
-					"credit": "Brandenburg Athletics Association"
-				},
-				{
-					"url": "https://some.com/brandenburg-castle-run-post-image3.png",
-					"altText": "Runners posing with medals",
-					"credit": "Brandenburg Athletics Association"
-				},
-				{
-					"url": "https://some.com/brandenburg-castle-run-post-image4.png",
-					"altText": "Participants enjoying post-race refreshments",
-					"credit": "Brandenburg Athletics Association"
-				}
-			]
-		},
-		{
-			"id": 22,
-			"slug": "twenty-second-event",
-			"name": "Berlin Street Food Festival",
-			"description": "Indulge in a culinary adventure at the Berlin Street Food Festival. Discover delicious street food from around the world, live cooking demonstrations, and vibrant cultural performances.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Gleisdreieck Park",
-			"startDate": "2024-07-05T12:00:00",
-			"endDate": "2024-07-07T23:59:59",
-			"organiser": "Berlin Food Events",
-			"tags": [
-				{
-					"value": "food",
-					"label": "Food"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "street food",
-					"label": "Street Food"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1589090604168-b9b676c91063",
-					"altText": "People enjoying street food",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1614986514404-f24575a9bdf3",
-					"altText": "Street food stalls",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1518978286276-49f46aa6a1a4",
-					"altText": "Live cooking demonstration",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759",
-					"altText": "Cultural performance",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1555098574-404b99a01654",
-					"altText": "Night view of festival",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1555098486-4563807e18f9",
-					"altText": "Crowds enjoying the festival",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1555098555-5c34e348641e",
-					"altText": "Food stalls at night",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 23,
-			"slug": "twenty-third-event",
-			"name": "Berlin Fashion Week",
-			"description": "Experience the cutting-edge of fashion at Berlin Fashion Week. Discover the latest trends, attend runway shows by top designers, and immerse yourself in the glamour of the fashion world.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Kraftwerk Berlin",
-			"startDate": "2024-09-10T10:00:00",
-			"endDate": "2024-09-14T23:59:59",
-			"organiser": "Berlin Fashion Council",
-			"tags": [
-				{
-					"value": "fashion",
-					"label": "Fashion"
-				},
-				{
-					"value": "runway",
-					"label": "Runway"
-				},
-				{
-					"value": "style",
-					"label": "Style"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1512069772995-ec99c7bd3e47",
-					"altText": "Runway show",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1513807090930-c2c3b6ef0ac2",
-					"altText": "Fashion models backstage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1503256207526-0d0754606926",
-					"altText": "Fashion week venue",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1474937351421-bc313f90e84a",
-					"altText": "Fashion accessories",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1476729512358-016a64c90ad8",
-					"altText": "Fashion week after-party",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1493707553966-e9144fcc7d9b",
-					"altText": "Fashion enthusiasts",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1493707490019-9dd8f2e7188e",
-					"altText": "Fashion event atmosphere",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 24,
-			"slug": "twenty-fourth-event",
-			"name": "Berlin Film Festival",
-			"description": "Celebrate cinema at the Berlin Film Festival. Experience a diverse selection of films from around the world, attend screenings, panel discussions, and engage with filmmakers.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Berlinale Palast",
-			"startDate": "2024-02-15T10:00:00",
-			"endDate": "2024-02-25T23:59:59",
-			"organiser": "Berlin International Film Festival",
-			"tags": [
-				{
-					"value": "film",
-					"label": "Film"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "cinema",
-					"label": "Cinema"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1520158314324-fd87e3429e0f",
-					"altText": "Film festival venue",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1542502469-26670b848c43",
-					"altText": "Film screening",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1542502387-67d7e28619b8",
-					"altText": "Red carpet event",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1542502248-5d21e6f1b866",
-					"altText": "Film festival atmosphere",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1542502742-6a008b741d50",
-					"altText": "Film festival after-party",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1542502673-e4566e40cc04",
-					"altText": "Filmmakers celebrating",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1542502581-6e9e733db1b3",
-					"altText": "Film enthusiasts",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 25,
-			"slug": "twenty-fifth-event",
-			"name": "Berlin Comedy Club Night",
-			"description": "Laugh your heart out at the Berlin Comedy Club Night. Enjoy an evening of hilarious stand-up comedy by top comedians, guaranteed to leave you in stitches.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Kulturbrauerei",
-			"startDate": "2024-08-10T20:00:00",
-			"endDate": "2024-08-10T23:00:00",
-			"organiser": "Berlin Comedy Club",
-			"tags": [
-				{
-					"value": "comedy",
-					"label": "Comedy"
-				},
-				{
-					"value": "stand-up",
-					"label": "Stand-up"
-				},
-				{
-					"value": "entertainment",
-					"label": "Entertainment"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
-					"altText": "Comedy club interior",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1561641237-55cd4e86d1f7",
-					"altText": "Comedian performing on stage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1559328623-6f8bfc9a06df",
-					"altText": "Audience laughing at comedy show",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1533305957255-6e504d2bfb1e",
-					"altText": "Comedy night poster",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1533305957255-6e504d2bfb1e",
-					"altText": "Audience applauding",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
-					"altText": "Comedy club interior at night",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1552289811-9ab28316f1ca",
-					"altText": "Comedy night atmosphere",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 26,
-			"slug": "twenty-sixth-event",
-			"name": "Berlin Improv Night",
-			"description": "Experience the spontaneous hilarity of the Berlin Improv Night. Watch talented improv comedians create comedy sketches on the spot based on audience suggestions.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Comedy Cafe Berlin",
-			"startDate": "2024-09-21T19:30:00",
-			"endDate": "2024-09-21T22:30:00",
-			"organiser": "Berlin Improv Society",
-			"tags": [
-				{
-					"value": "comedy",
-					"label": "Comedy"
-				},
-				{
-					"value": "improv",
-					"label": "Improv"
-				},
-				{
-					"value": "entertainment",
-					"label": "Entertainment"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
-					"altText": "Improv comedy stage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1551778244-38e0c1497a50",
-					"altText": "Improvisational comedy performance",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1549319558-1b2d69421639",
-					"altText": "Comedians during an improv game",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1552782991-eac9223479a2",
-					"altText": "Audience enjoying improv comedy",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1558423032-98fa964f94e5",
-					"altText": "Improvisational comedy scene",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1546539975-2e0f7e9d2f3b",
-					"altText": "Audience reaction to improv comedy",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1561202684-628cbf84728c",
-					"altText": "Improv comedy show poster",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 27,
-			"slug": "twenty-seventh-event",
-			"name": "Berlin Comedy Film Festival",
-			"description": "Discover the best in comedic cinema at the Berlin Comedy Film Festival. Enjoy screenings of hilarious short films, feature-length comedies, and filmmaker Q&A sessions.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Zoo Palast",
-			"startDate": "2024-11-05T10:00:00",
-			"endDate": "2024-11-08T23:59:59",
-			"organiser": "Berlin Comedy Film Society",
-			"tags": [
-				{
-					"value": "comedy",
-					"label": "Comedy"
-				},
-				{
-					"value": "film",
-					"label": "Film"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
-					"altText": "Comedy film festival venue",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1521220279887-2f01c1b5228f",
-					"altText": "Film screening at comedy festival",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1521220281625-2848bbf5dc37",
-					"altText": "Filmmaker Q&A session",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1521220280423-d1563b645498",
-					"altText": "Comedic short film poster",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1521220279887-2f01c1b5228f",
-					"altText": "Audience enjoying comedy film",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1521220279023-04415fdddb97",
-					"altText": "Filmmaker discussing comedy film",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1521220280998-5bf70a87d2b9",
-					"altText": "Film festival atmosphere",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 28,
-			"slug": "twenty-eighth-event",
-			"name": "Berlin Comedy Showcase",
-			"description": "Prepare for an evening of laughter at the Berlin Comedy Showcase. Watch up-and-coming comedians deliver hilarious stand-up routines and enjoy a night of comedy entertainment.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "BKA Theater",
-			"startDate": "2024-09-15T19:00:00",
-			"endDate": "2024-09-15T22:00:00",
-			"organiser": "Berlin Comedy Collective",
-			"tags": [
-				{
-					"value": "comedy",
-					"label": "Comedy"
-				},
-				{
-					"value": "stand-up",
-					"label": "Stand-up"
-				},
-				{
-					"value": "entertainment",
-					"label": "Entertainment"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
-					"altText": "Comedy showcase poster",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1517013629619-e4e796cac0ea",
-					"altText": "Comedians performing on stage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1554755338-c4e169f8e37e",
-					"altText": "Comedy club audience",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1521220281984-dba51b999f49",
-					"altText": "Comedy night atmosphere",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1521220281984-dba51b999f49",
-					"altText": "Comedy club interior",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1554755338-c4e169f8e37e",
-					"altText": "Audience enjoying comedy show",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1558438396-4e6b7e25244b",
-					"altText": "Comedy night after-party",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 29,
-			"slug": "twenty-ninth-event",
-			"name": "Berlin Comedy Cabaret",
-			"description": "Step into the world of hilarity at the Berlin Comedy Cabaret. Experience a blend of comedy, music, and cabaret acts, promising an unforgettable night of entertainment.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Bar jeder Vernunft",
-			"startDate": "2024-10-20T20:30:00",
-			"endDate": "2024-10-20T23:30:00",
-			"organiser": "Berlin Comedy Cabaret Company",
-			"tags": [
-				{
-					"value": "comedy",
-					"label": "Comedy"
-				},
-				{
-					"value": "cabaret",
-					"label": "Cabaret"
-				},
-				{
-					"value": "entertainment",
-					"label": "Entertainment"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
-					"altText": "Comedy cabaret stage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1605191502147-1b171e3a7b5b",
-					"altText": "Cabaret performers on stage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1516495710560-1925c2eb2145",
-					"altText": "Audience enjoying cabaret comedy",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1557801560-52da5c4a5a4d",
-					"altText": "Comedy cabaret night atmosphere",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1557801560-52da5c4a5a4d",
-					"altText": "Comedy cabaret venue exterior",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1516495710560-1925c2eb2145",
-					"altText": "Audience applauding at cabaret show",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1516495539161-9f8f1e00c8d1",
-					"altText": "Cabaret performers",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"id": 30,
-			"slug": "thirtieth-event",
-			"name": "Berlin Comedy Festival",
-			"description": "Celebrate laughter at the Berlin Comedy Festival. Enjoy a diverse lineup of comedy acts including stand-up, sketch comedy, and improv performances, promising endless fun and entertainment.",
-			"location": "Berlin",
-			"locationCoords": "52.5200, 13.4050",
-			"venue": "Volksbühne Berlin",
-			"startDate": "2024-11-30T18:00:00",
-			"endDate": "2024-12-02T23:59:59",
-			"organiser": "Berlin Comedy Festival Association",
-			"tags": [
-				{
-					"value": "comedy",
-					"label": "Comedy"
-				},
-				{
-					"value": "festival",
-					"label": "Festival"
-				},
-				{
-					"value": "entertainment",
-					"label": "Entertainment"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
-					"altText": "Comedy festival venue",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1606398767069-67b5c82ad038",
-					"altText": "Comedy festival audience",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1524882320475-e4a2b4fefeba",
-					"altText": "Comedy festival stage",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1558423032-98fa964f94e5",
-					"altText": "Comedy festival atmosphere",
-					"credit": "Unsplash"
-				}
-			],
-			"postShowImages": [
-				{
-					"url": "https://images.unsplash.com/photo-1558423032-98fa964f94e5",
-					"altText": "Audience enjoying comedy festival",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1552171296-75c10788cf1c",
-					"altText": "Comedy festival after-party",
-					"credit": "Unsplash"
-				},
-				{
-					"url": "https://images.unsplash.com/photo-1557816804-3bd44c8c3be8",
-					"altText": "Comedy festival performers",
-					"credit": "Unsplash"
-				}
-			]
-		},
-		{
-			"name": "wefas",
-			"description": "wqdef",
-			"location": "ersf",
-			"venue": "eaf",
-			"startDate": "2024-03-18T17:19",
-			"endDate": "2024-03-18T17:21",
-			"organiser": "aed",
-			"tags": ["efa"],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "",
-					"altText": "",
-					"credit": ""
-				}
-			],
-			"pendingApproval": true,
-			"slug": "wefas",
-			"id": 31
-		},
-		{
-			"name": "advadv",
-			"description": "advadv",
-			"location": "aef",
-			"venue": "aegae",
-			"startDate": "2024-03-29T09:59",
-			"endDate": "2024-03-19T09:05",
-			"organiser": "agae",
-			"tags": ["test"],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "",
-					"altText": "",
-					"credit": ""
-				}
-			],
-			"pendingApproval": true,
-			"slug": "advadv",
-			"id": 32
-		},
-		{
-			"name": "advadv",
-			"description": "advadv",
-			"location": "aef",
-			"venue": "aegae",
-			"startDate": "2024-03-29T09:59",
-			"endDate": "2024-03-19T09:05",
-			"organiser": "agae",
-			"tags": ["test"],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "",
-					"altText": "",
-					"credit": ""
-				}
-			],
-			"pendingApproval": true,
-			"slug": "advadv",
-			"id": 33
-		},
-		{
-			"name": "some event woth tags",
-			"description": "aef;jnefgkjnefg",
-			"location": "aefgr",
-			"venue": "ef",
-			"startDate": "2024-03-19T14:11",
-			"endDate": "2024-03-30T10:11",
-			"organiser": "vrs",
-			"tags": [
-				{
-					"value": 3,
-					"label": "option 3"
-				},
-				{
-					"value": 5,
-					"label": "option 5"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [],
-			"pendingApproval": true,
-			"slug": "some-event-woth-tags",
-			"id": 34
-		},
-		{
-			"name": "aefggfg",
-			"description": "aef",
-			"location": "aeg",
-			"venue": "aef",
-			"startDate": "2024-03-19T11:58",
-			"endDate": "2024-03-19T10:04",
-			"organiser": "geee",
-			"tags": [
-				{
-					"value": "rock",
-					"label": "Rock"
-				},
-				{
-					"value": "techno",
-					"label": "Techno"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "",
-					"altText": "",
-					"credit": ""
-				}
-			],
-			"pendingApproval": true,
-			"slug": "aefggfg",
-			"id": 35
-		},
-		{
-			"name": "bloop blorp event",
-			"description": "aef",
-			"location": "aeg",
-			"venue": "aef",
-			"startDate": "2024-03-19T11:58",
-			"endDate": "2024-03-19T10:04",
-			"organiser": "geee",
-			"tags": [
-				{
-					"value": "rock",
-					"label": "Rock"
-				},
-				{
-					"value": "techno",
-					"label": "Techno"
-				}
-			],
-			"promoImage": "/assets/demo-image-stretching.avif",
-			"images": [
-				{
-					"url": "",
-					"altText": "",
-					"credit": ""
-				}
-			],
-			"pendingApproval": true,
-			"slug": "blerrrg",
-			"id": 36
-		}
-	],
-	"performers": [
-		{
-			"id": 1,
-			"name": "johnny performer",
-			"teams": [1, 2],
-			"eventId": 1
-		},
-		{
-			"id": 2,
-			"name": "judy performer",
-			"teams": [2],
-			"eventId": 2
-		}
-	],
-	"teams": [
-		{
-			"id": 1,
-			"name": "some team"
-		},
-		{
-			"id": 2,
-			"name": "some other team"
-		}
-	],
-	"teammembers": [
-		{
-			"teammember": {
-				"id": 1,
-				"performerId": 1
-			},
-			"teamId": "1",
-			"id": 1,
-			"performerId": 1
-		},
-		{
-			"teammember": {
-				"id": 1
-			},
-			"teamId": "2",
-			"id": 2,
-			"performerId": 1
-		}
-	],
-	"images": [
-		{
-			"url": "https://some.com/iamge1.png",
-			"altText": "this is a picture of something",
-			"eventId": 1
-		}
-	],
-	"organisers": [
-		{
-			"id": 1,
-			"name": "organising team"
-		},
-		{
-			"id": 2,
-			"name": "disorganising team"
-		}
-	],
-	"users": [
-		{
-			"email": "me@me.com",
-			"password": "$2a$10$SuxqpBDxcu1mOZeOzoGSTeC7zTlm5A/MC/m74dmdWxjB6IF462Ju2",
-			"firstname": "jij",
-			"lastname": "jijington",
-			"id": 1
-		}
-	],
-	"products": [
-		{
-			"id": "2f81a686-7531-11e8-86e5-f0d5bf731f68",
-			"item": "Keychain Phone Charger",
-			"price": "29.99",
-			"description": "This keychain lightning charger comes with a plug so you’ll be able to charge anywhere with an outlet. Great for the traveller on the go who always needs their phone."
-		},
-		{
-			"id": "39ac2118-7531-11e8-86e5-f0d5bf731f68",
-			"item": "Coffee Mug",
-			"price": "11.80",
-			"description": "Classic white coffee mug."
-		},
-		{
-			"id": "4262b2c2-7531-11e8-86e5-f0d5bf731f68",
-			"item": "Coffee Mug",
-			"price": "11.80",
-			"description": "Classic red coffee mug."
-		}
-	],
-	"carts": [
-		{
-			"id": 1
-		},
-		{
-			"id": 2
-		}
-	],
-	"items": [
-		{
-			"item": {
-				"id": "4262b2c2-7531-11e8-86e5-f0d5bf731f68"
-			},
-			"cartId": "1",
-			"id": 1
-		},
-		{
-			"item": {
-				"id": "39ac2118-7531-11e8-86e5-f0d5bf731f68"
-			},
-			"cartId": "1",
-			"id": 2
-		},
-		{
-			"item": {
-				"id": "39ac2118-7531-11e8-86e5-f0d5bf731f68"
-			},
-			"cartId": "2",
-			"id": 3
-		}
-	]
+  "events": [
+    {
+      "id": 0,
+      "slug": "zero-event",
+      "name": "my test event zero",
+      "description": "Join us for the biggest music festival of the year! Enjoy live performances by top artists across multiple stages.",
+      "location": "New York City",
+      "locationCoords": "40.730610, -73.935242",
+      "venue": "Big Event Location",
+      "startDate": "2024-01-13T13:00:00",
+      "endDate": "2024-01-20T23:59:59",
+      "organiser": "Eventz Productions",
+      "tags": [
+        {
+          "value": "foodie",
+          "label": "Foodie"
+        },
+        {
+          "value": "networking",
+          "label": "Networking"
+        },
+        {
+          "value": "cultural",
+          "label": "Cultural"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/iamge1.png",
+          "altText": "an image showing something",
+          "credit": "Frankie Foto"
+        },
+        {
+          "url": "https://some.com/iamge2.png",
+          "altText": "an image showing another thing",
+          "credit": "Frankie Foto"
+        },
+        {
+          "url": "https://some.com/iamge3.png",
+          "altText": "a photo showing something",
+          "credit": "Frankie Foto"
+        },
+        {
+          "url": "https://some.com/iamge4.png",
+          "altText": "an new something in a photo",
+          "credit": "Frankie Foto"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/post/iamge1.png",
+          "altText": "an image showing something",
+          "credit": "Frankie Foto"
+        },
+        {
+          "url": "https://some.com/post/iamge2.png",
+          "altText": "an image showing another thing",
+          "credit": "Frankie Foto"
+        },
+        {
+          "url": "https://some.com/post/iamge3.png",
+          "altText": "a photo showing something",
+          "credit": "Frankie Foto"
+        },
+        {
+          "url": "https://some.com/post/iamge4.png",
+          "altText": "an new something in a photo",
+          "credit": "Frankie Foto"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "slug": "first-event",
+      "name": "Spring Jazz Festival",
+      "description": "Experience the smooth sounds of jazz under the stars.\nJoin us for an unforgettable evening filled with soulful performances.",
+      "location": "Los Angeles",
+      "featuredEvent": true,
+      "locationCoords": "34.052235, -118.243683",
+      "venue": "Sunset Park Amphitheater",
+      "startDate": "2024-04-15T18:00:00",
+      "endDate": "2024-04-16T23:59:59",
+      "organiser": "JazzWorks Productions",
+      "tags": [
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "nightlife",
+          "label": "Nightlife"
+        },
+        {
+          "value": "cultural",
+          "label": "Cultural"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/spring-jazz-image1.png",
+          "altText": "A saxophonist playing during the jazz festival",
+          "credit": "Ella Jazz"
+        },
+        {
+          "url": "https://some.com/spring-jazz-image2.png",
+          "altText": "Crowd enjoying jazz music",
+          "credit": "Ella Jazz"
+        },
+        {
+          "url": "https://some.com/spring-jazz-image3.png",
+          "altText": "Jazz band performing on stage",
+          "credit": "Ella Jazz"
+        },
+        {
+          "url": "https://some.com/spring-jazz-image4.png",
+          "altText": "Audience clapping during jazz performance",
+          "credit": "Ella Jazz"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/spring-jazz-post-image1.png",
+          "altText": "Audience enjoying after-party",
+          "credit": "Ella Jazz"
+        },
+        {
+          "url": "https://some.com/spring-jazz-post-image2.png",
+          "altText": "Night view of the venue",
+          "credit": "Ella Jazz"
+        },
+        {
+          "url": "https://some.com/spring-jazz-post-image3.png",
+          "altText": "Food stalls at the festival",
+          "credit": "Ella Jazz"
+        },
+        {
+          "url": "https://some.com/spring-jazz-post-image4.png",
+          "altText": "Jazz band members relaxing backstage",
+          "credit": "Ella Jazz"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "second-event",
+      "name": "Summer Street Food Festival",
+      "description": "Indulge in the flavors of summer at our annual street food festival. Explore a wide array of cuisines from around the world, all in one place.",
+      "location": "London",
+      "locationCoords": "51.507351, -0.127758",
+      "venue": "Riverfront Park",
+      "startDate": "2024-07-20T11:00:00",
+      "endDate": "2024-07-22T22:00:00",
+      "organiser": "Global Gastronomy Events",
+      "tags": [
+        {
+          "value": "foodie",
+          "label": "Foodie"
+        },
+        {
+          "value": "cultural",
+          "label": "Cultural"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/summer-street-food-image1.png",
+          "altText": "A variety of street food stalls",
+          "credit": "FoodieFocus"
+        },
+        {
+          "url": "https://some.com/summer-street-food-image2.png",
+          "altText": "People enjoying street food",
+          "credit": "FoodieFocus"
+        },
+        {
+          "url": "https://some.com/summer-street-food-image3.png",
+          "altText": "Chef cooking at a food stall",
+          "credit": "FoodieFocus"
+        },
+        {
+          "url": "https://some.com/summer-street-food-image4.png",
+          "altText": "Food truck offering delicious treats",
+          "credit": "FoodieFocus"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/summer-street-food-post-image1.png",
+          "altText": "Crowd enjoying after-party",
+          "credit": "FoodieFocus"
+        },
+        {
+          "url": "https://some.com/summer-street-food-post-image2.png",
+          "altText": "Night view of the festival area",
+          "credit": "FoodieFocus"
+        },
+        {
+          "url": "https://some.com/summer-street-food-post-image3.png",
+          "altText": "Food vendors packing up after the festival",
+          "credit": "FoodieFocus"
+        },
+        {
+          "url": "https://some.com/summer-street-food-post-image4.png",
+          "altText": "Chefs celebrating the success of the event",
+          "credit": "FoodieFocus"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "third-event",
+      "name": "Winter Wonderland Ice Skating",
+      "description": "Glide through the magical Winter Wonderland on ice skates. Join us for a festive day filled with joy and laughter for all ages.",
+      "location": "New York City",
+      "locationCoords": "40.730610, -73.935242",
+      "venue": "Central Park Ice Rink",
+      "startDate": "2024-12-01T10:00:00",
+      "endDate": "2024-12-31T21:00:00",
+      "organiser": "Frosty Events Inc.",
+      "tags": [
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "winter",
+          "label": "Winter"
+        },
+        {
+          "value": "entertainment",
+          "label": "Entertainment"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/winter-ice-skating-image1.png",
+          "altText": "People ice skating in Central Park",
+          "credit": "Frosty Fotos"
+        },
+        {
+          "url": "https://some.com/winter-ice-skating-image2.png",
+          "altText": "Children having fun on the ice",
+          "credit": "Frosty Fotos"
+        },
+        {
+          "url": "https://some.com/winter-ice-skating-image3.png",
+          "altText": "Couple skating together",
+          "credit": "Frosty Fotos"
+        },
+        {
+          "url": "https://some.com/winter-ice-skating-image4.png",
+          "altText": "Winter decorations at the rink",
+          "credit": "Frosty Fotos"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/winter-ice-skating-post-image1.png",
+          "altText": "Hot chocolate station after ice skating",
+          "credit": "Frosty Fotos"
+        },
+        {
+          "url": "https://some.com/winter-ice-skating-post-image2.png",
+          "altText": "Night view of the illuminated rink",
+          "credit": "Frosty Fotos"
+        },
+        {
+          "url": "https://some.com/winter-ice-skating-post-image3.png",
+          "altText": "Families enjoying post-skating activities",
+          "credit": "Frosty Fotos"
+        },
+        {
+          "url": "https://some.com/winter-ice-skating-post-image4.png",
+          "altText": "Skaters warming up by the fire pit",
+          "credit": "Frosty Fotos"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "fourth-event",
+      "name": "Summer Music Festival",
+      "description": "Celebrate the spirit of summer with live music performances from top artists. Join us for a weekend of fun, music, and memories.",
+      "location": "Chicago",
+      "locationCoords": "41.8781, -87.6298",
+      "venue": "Grant Park",
+      "startDate": "2024-06-21T12:00:00",
+      "endDate": "2024-06-23T23:59:59",
+      "organiser": "MusicMania Events",
+      "tags": [
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "summer",
+          "label": "Summer"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/summer-music-image1.png",
+          "altText": "Crowd cheering at the music festival",
+          "credit": "MusicMania"
+        },
+        {
+          "url": "https://some.com/summer-music-image2.png",
+          "altText": "Artist performing on stage",
+          "credit": "MusicMania"
+        },
+        {
+          "url": "https://some.com/summer-music-image3.png",
+          "altText": "Concertgoers enjoying the festival",
+          "credit": "MusicMania"
+        },
+        {
+          "url": "https://some.com/summer-music-image4.png",
+          "altText": "Beautiful sunset at the festival",
+          "credit": "MusicMania"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/summer-music-post-image1.png",
+          "altText": "Fireworks display after the festival",
+          "credit": "MusicMania"
+        },
+        {
+          "url": "https://some.com/summer-music-post-image2.png",
+          "altText": "Night view of the festival grounds",
+          "credit": "MusicMania"
+        },
+        {
+          "url": "https://some.com/summer-music-post-image3.png",
+          "altText": "Food vendors at the festival",
+          "credit": "MusicMania"
+        },
+        {
+          "url": "https://some.com/summer-music-post-image4.png",
+          "altText": "Happy festival attendees",
+          "credit": "MusicMania"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "fifth-event",
+      "name": "Tech Conference 2024",
+      "description": "Stay ahead of the curve with the latest in technology trends. Join industry experts and innovators for insightful sessions and networking opportunities.",
+      "location": "San Francisco",
+      "locationCoords": "37.7749, -122.4194",
+      "venue": "Moscone Center",
+      "startDate": "2024-09-10T09:00:00",
+      "endDate": "2024-09-12T18:00:00",
+      "organiser": "TechTalk Conferences",
+      "tags": [
+        {
+          "value": "technology",
+          "label": "Technology"
+        },
+        {
+          "value": "innovation",
+          "label": "Innovation"
+        },
+        {
+          "value": "networking",
+          "label": "Networking"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/tech-conference-image1.png",
+          "altText": "Keynote speaker on stage",
+          "credit": "TechTalk Conferences"
+        },
+        {
+          "url": "https://some.com/tech-conference-image2.png",
+          "altText": "Panel discussion at the conference",
+          "credit": "TechTalk Conferences"
+        },
+        {
+          "url": "https://some.com/tech-conference-image3.png",
+          "altText": "Attendees networking at the event",
+          "credit": "TechTalk Conferences"
+        },
+        {
+          "url": "https://some.com/tech-conference-image4.png",
+          "altText": "Exhibition booths at the conference",
+          "credit": "TechTalk Conferences"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/tech-conference-post-image1.png",
+          "altText": "Attendees exchanging business cards",
+          "credit": "TechTalk Conferences"
+        },
+        {
+          "url": "https://some.com/tech-conference-post-image2.png",
+          "altText": "Networking drinks reception",
+          "credit": "TechTalk Conferences"
+        },
+        {
+          "url": "https://some.com/tech-conference-post-image3.png",
+          "altText": "Tech gadgets showcase",
+          "credit": "TechTalk Conferences"
+        },
+        {
+          "url": "https://some.com/tech-conference-post-image4.png",
+          "altText": "Conference attendees at lunch break",
+          "credit": "TechTalk Conferences"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "sixth-event",
+      "name": "Art Exhibition: Modern Masters",
+      "description": "Discover the brilliance of modern art with works from renowned masters. Immerse yourself in creativity and inspiration at this exclusive exhibition.",
+      "location": "Paris",
+      "locationCoords": "48.8566, 2.3522",
+      "venue": "Grand Palais",
+      "startDate": "2024-11-01T10:00:00",
+      "endDate": "2024-11-30T18:00:00",
+      "organiser": "Artistic Impressions",
+      "tags": [
+        {
+          "value": "art",
+          "label": "Art"
+        },
+        {
+          "value": "culture",
+          "label": "Culture"
+        },
+        {
+          "value": "exhibition",
+          "label": "Exhibition"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/modern-masters-image1.png",
+          "altText": "Paintings displayed at the exhibition",
+          "credit": "Artistic Impressions"
+        },
+        {
+          "url": "https://some.com/modern-masters-image2.png",
+          "altText": "Sculptures showcased at the venue",
+          "credit": "Artistic Impressions"
+        },
+        {
+          "url": "https://some.com/modern-masters-image3.png",
+          "altText": "Art enthusiasts exploring the exhibition",
+          "credit": "Artistic Impressions"
+        },
+        {
+          "url": "https://some.com/modern-masters-image4.png",
+          "altText": "Gallery view of the art pieces",
+          "credit": "Artistic Impressions"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/modern-masters-post-image1.png",
+          "altText": "Visitors discussing artworks",
+          "credit": "Artistic Impressions"
+        },
+        {
+          "url": "https://some.com/modern-masters-post-image2.png",
+          "altText": "Gallery reception after the exhibition",
+          "credit": "Artistic Impressions"
+        },
+        {
+          "url": "https://some.com/modern-masters-post-image3.png",
+          "altText": "Artists interacting with attendees",
+          "credit": "Artistic Impressions"
+        },
+        {
+          "url": "https://some.com/modern-masters-post-image4.png",
+          "altText": "Art lovers browsing the exhibition",
+          "credit": "Artistic Impressions"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "seventh-event",
+      "name": "Oktoberfest Celebration",
+      "description": "Experience the world-famous Oktoberfest celebration right here in Munich. Enjoy traditional Bavarian music, food, and of course, beer!",
+      "location": "Munich",
+      "locationCoords": "48.1351, 11.5820",
+      "venue": "Theresienwiese",
+      "startDate": "2024-09-21T12:00:00",
+      "endDate": "2024-10-06T23:59:59",
+      "organiser": "Bavarian Events GmbH",
+      "tags": [
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "beer",
+          "label": "Beer"
+        },
+        {
+          "value": "culture",
+          "label": "Culture"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/oktoberfest-image1.png",
+          "altText": "Crowd at the Oktoberfest celebration",
+          "credit": "Bavarian Events GmbH"
+        },
+        {
+          "url": "https://some.com/oktoberfest-image2.png",
+          "altText": "Traditional German music performance",
+          "credit": "Bavarian Events GmbH"
+        },
+        {
+          "url": "https://some.com/oktoberfest-image3.png",
+          "altText": "People raising beer steins in celebration",
+          "credit": "Bavarian Events GmbH"
+        },
+        {
+          "url": "https://some.com/oktoberfest-image4.png",
+          "altText": "Oktoberfest tents at night",
+          "credit": "Bavarian Events GmbH"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/oktoberfest-post-image1.png",
+          "altText": "Fireworks display at the end of Oktoberfest",
+          "credit": "Bavarian Events GmbH"
+        },
+        {
+          "url": "https://some.com/oktoberfest-post-image2.png",
+          "altText": "Night view of the festival grounds",
+          "credit": "Bavarian Events GmbH"
+        },
+        {
+          "url": "https://some.com/oktoberfest-post-image3.png",
+          "altText": "Traditional Bavarian clothing showcase",
+          "credit": "Bavarian Events GmbH"
+        },
+        {
+          "url": "https://some.com/oktoberfest-post-image4.png",
+          "altText": "Happy festival attendees enjoying the festivities",
+          "credit": "Bavarian Events GmbH"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "eighth-event",
+      "name": "Fashion Week Paris",
+      "description": "Be part of the glamour and style at Fashion Week Paris. Witness the latest trends showcased by top designers from around the world.",
+      "location": "Paris",
+      "locationCoords": "48.8566, 2.3522",
+      "venue": "Carrousel du Louvre",
+      "startDate": "2024-10-01T09:00:00",
+      "endDate": "2024-10-08T18:00:00",
+      "organiser": "Fashion Forward Events",
+      "tags": [
+        {
+          "value": "fashion",
+          "label": "Fashion"
+        },
+        {
+          "value": "style",
+          "label": "Style"
+        },
+        {
+          "value": "luxury",
+          "label": "Luxury"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/fashion-week-paris-image1.png",
+          "altText": "Fashion models on the runway",
+          "credit": "Fashion Forward Events"
+        },
+        {
+          "url": "https://some.com/fashion-week-paris-image2.png",
+          "altText": "Designer showcasing their collection",
+          "credit": "Fashion Forward Events"
+        },
+        {
+          "url": "https://some.com/fashion-week-paris-image3.png",
+          "altText": "Attendees admiring fashion pieces",
+          "credit": "Fashion Forward Events"
+        },
+        {
+          "url": "https://some.com/fashion-week-paris-image4.png",
+          "altText": "Backstage preparations",
+          "credit": "Fashion Forward Events"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/fashion-week-paris-post-image1.png",
+          "altText": "Fashionistas networking at the event",
+          "credit": "Fashion Forward Events"
+        },
+        {
+          "url": "https://some.com/fashion-week-paris-post-image2.png",
+          "altText": "Night view of Paris skyline",
+          "credit": "Fashion Forward Events"
+        },
+        {
+          "url": "https://some.com/fashion-week-paris-post-image3.png",
+          "altText": "Fashion industry professionals at a party",
+          "credit": "Fashion Forward Events"
+        },
+        {
+          "url": "https://some.com/fashion-week-paris-post-image4.png",
+          "altText": "Celebrity spotted at Fashion Week Paris",
+          "credit": "Fashion Forward Events"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "ninth-event",
+      "name": "Cultural Festival Barcelona",
+      "description": "Immerse yourself in the rich culture of Barcelona at our vibrant cultural festival. Experience music, dance, food, and art from Catalonia and beyond.",
+      "location": "Barcelona",
+      "locationCoords": "41.3851, 2.1734",
+      "venue": "Parc de la Ciutadella",
+      "startDate": "2024-08-15T10:00:00",
+      "endDate": "2024-08-17T22:00:00",
+      "organiser": "Barcelona Cultural Society",
+      "tags": [
+        {
+          "value": "cultural",
+          "label": "Cultural"
+        },
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "art",
+          "label": "Art"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/cultural-festival-barcelona-image1.png",
+          "altText": "Traditional Catalan dancers",
+          "credit": "Barcelona Cultural Society"
+        },
+        {
+          "url": "https://some.com/cultural-festival-barcelona-image2.png",
+          "altText": "Local musicians performing",
+          "credit": "Barcelona Cultural Society"
+        },
+        {
+          "url": "https://some.com/cultural-festival-barcelona-image3.png",
+          "altText": "Artisans showcasing their crafts",
+          "credit": "Barcelona Cultural Society"
+        },
+        {
+          "url": "https://some.com/cultural-festival-barcelona-image4.png",
+          "altText": "Colorful decorations at the festival",
+          "credit": "Barcelona Cultural Society"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/cultural-festival-barcelona-post-image1.png",
+          "altText": "Fireworks display at the festival finale",
+          "credit": "Barcelona Cultural Society"
+        },
+        {
+          "url": "https://some.com/cultural-festival-barcelona-post-image2.png",
+          "altText": "Night view of the festival atmosphere",
+          "credit": "Barcelona Cultural Society"
+        },
+        {
+          "url": "https://some.com/cultural-festival-barcelona-post-image3.png",
+          "altText": "Local cuisine stalls at the festival",
+          "credit": "Barcelona Cultural Society"
+        },
+        {
+          "url": "https://some.com/cultural-festival-barcelona-post-image4.png",
+          "altText": "Participants enjoying a cultural parade",
+          "credit": "Barcelona Cultural Society"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "tenth-event",
+      "name": "Berlin International Film Festival",
+      "description": "Join us for the renowned Berlin International Film Festival, showcasing the best of contemporary cinema from around the world. Experience premieres, screenings, and industry discussions.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Berlinale Palast",
+      "startDate": "2024-02-15T10:00:00",
+      "endDate": "2024-02-25T23:59:59",
+      "organiser": "Berlinale Events GmbH",
+      "tags": [
+        {
+          "value": "film",
+          "label": "Film"
+        },
+        {
+          "value": "cinema",
+          "label": "Cinema"
+        },
+        {
+          "value": "culture",
+          "label": "Culture"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/berlin-film-festival-image1.png",
+          "altText": "Red carpet event at the Berlin International Film Festival",
+          "credit": "Berlinale Events GmbH"
+        },
+        {
+          "url": "https://some.com/berlin-film-festival-image2.png",
+          "altText": "Filmmakers at a press conference",
+          "credit": "Berlinale Events GmbH"
+        },
+        {
+          "url": "https://some.com/berlin-film-festival-image3.png",
+          "altText": "Audience watching a film screening",
+          "credit": "Berlinale Events GmbH"
+        },
+        {
+          "url": "https://some.com/berlin-film-festival-image4.png",
+          "altText": "Award ceremony at the festival",
+          "credit": "Berlinale Events GmbH"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/berlin-film-festival-post-image1.png",
+          "altText": "Film enthusiasts discussing movies",
+          "credit": "Berlinale Events GmbH"
+        },
+        {
+          "url": "https://some.com/berlin-film-festival-post-image2.png",
+          "altText": "Night view of Berlinale Palast",
+          "credit": "Berlinale Events GmbH"
+        },
+        {
+          "url": "https://some.com/berlin-film-festival-post-image3.png",
+          "altText": "Filmmakers networking at the festival",
+          "credit": "Berlinale Events GmbH"
+        },
+        {
+          "url": "https://some.com/berlin-film-festival-post-image4.png",
+          "altText": "Film critics discussing festival highlights",
+          "credit": "Berlinale Events GmbH"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "eleventh-event",
+      "name": "Berlin Fashion Week",
+      "description": "Experience the latest trends and designs at Berlin Fashion Week. Join fashionistas, designers, and influencers for runway shows, exhibitions, and parties.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Kraftwerk Berlin",
+      "startDate": "2024-07-01T09:00:00",
+      "endDate": "2024-07-06T18:00:00",
+      "organiser": "Berlin Fashion Council",
+      "tags": [
+        {
+          "value": "fashion",
+          "label": "Fashion"
+        },
+        {
+          "value": "style",
+          "label": "Style"
+        },
+        {
+          "value": "trends",
+          "label": "Trends"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/berlin-fashion-week-image1.png",
+          "altText": "Fashion models walking the runway",
+          "credit": "Berlin Fashion Council"
+        },
+        {
+          "url": "https://some.com/berlin-fashion-week-image2.png",
+          "altText": "Designer showcasing their collection",
+          "credit": "Berlin Fashion Council"
+        },
+        {
+          "url": "https://some.com/berlin-fashion-week-image3.png",
+          "altText": "Fashionistas attending a fashion show",
+          "credit": "Berlin Fashion Council"
+        },
+        {
+          "url": "https://some.com/berlin-fashion-week-image4.png",
+          "altText": "Backstage preparations before a show",
+          "credit": "Berlin Fashion Council"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/berlin-fashion-week-post-image1.png",
+          "altText": "Fashion Week attendees at a networking event",
+          "credit": "Berlin Fashion Council"
+        },
+        {
+          "url": "https://some.com/berlin-fashion-week-post-image2.png",
+          "altText": "Night view of Berlin during Fashion Week",
+          "credit": "Berlin Fashion Council"
+        },
+        {
+          "url": "https://some.com/berlin-fashion-week-post-image3.png",
+          "altText": "Fashion industry professionals at a panel discussion",
+          "credit": "Berlin Fashion Council"
+        },
+        {
+          "url": "https://some.com/berlin-fashion-week-post-image4.png",
+          "altText": "Fashion designers celebrating after a successful show",
+          "credit": "Berlin Fashion Council"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "twelfth-event",
+      "name": "Berlin Music Week",
+      "description": "Celebrate the diversity of music at Berlin Music Week. Enjoy live performances, DJ sets, and music conferences featuring artists from various genres.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Various Venues",
+      "startDate": "2024-09-02T12:00:00",
+      "endDate": "2024-09-07T23:59:59",
+      "organiser": "Berlin Music Association",
+      "tags": [
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "concerts",
+          "label": "Concerts"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/berlin-music-week-image1.png",
+          "altText": "Live concert performance at Berlin Music Week",
+          "credit": "Berlin Music Association"
+        },
+        {
+          "url": "https://some.com/berlin-music-week-image2.png",
+          "altText": "DJ spinning tracks at a music venue",
+          "credit": "Berlin Music Association"
+        },
+        {
+          "url": "https://some.com/berlin-music-week-image3.png",
+          "altText": "Audience dancing at a music festival",
+          "credit": "Berlin Music Association"
+        },
+        {
+          "url": "https://some.com/berlin-music-week-image4.png",
+          "altText": "Music conference panel discussion",
+          "credit": "Berlin Music Association"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/berlin-music-week-post-image1.png",
+          "altText": "Music fans enjoying after-party",
+          "credit": "Berlin Music Association"
+        },
+        {
+          "url": "https://some.com/berlin-music-week-post-image2.png",
+          "altText": "Night view of Berlin during Music Week",
+          "credit": "Berlin Music Association"
+        },
+        {
+          "url": "https://some.com/berlin-music-week-post-image3.png",
+          "altText": "Music industry professionals networking",
+          "credit": "Berlin Music Association"
+        },
+        {
+          "url": "https://some.com/berlin-music-week-post-image4.png",
+          "altText": "Concertgoers enjoying outdoor performance",
+          "credit": "Berlin Music Association"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "thirteenth-event",
+      "name": "Berlin Art Week",
+      "description": "Experience the vibrant art scene of Berlin at Berlin Art Week. Explore exhibitions, galleries, and special events showcasing contemporary art from around the world.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Various Galleries",
+      "startDate": "2024-09-18T10:00:00",
+      "endDate": "2024-09-22T18:00:00",
+      "organiser": "Berlin Art Association",
+      "tags": [
+        {
+          "value": "art",
+          "label": "Art"
+        },
+        {
+          "value": "exhibition",
+          "label": "Exhibition"
+        },
+        {
+          "value": "contemporary",
+          "label": "Contemporary"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/berlin-art-week-image1.png",
+          "altText": "Artwork displayed at Berlin Art Week",
+          "credit": "Berlin Art Association"
+        },
+        {
+          "url": "https://some.com/berlin-art-week-image2.png",
+          "altText": "Visitors admiring contemporary art",
+          "credit": "Berlin Art Association"
+        },
+        {
+          "url": "https://some.com/berlin-art-week-image3.png",
+          "altText": "Artists discussing their work",
+          "credit": "Berlin Art Association"
+        },
+        {
+          "url": "https://some.com/berlin-art-week-image4.png",
+          "altText": "Interactive art installation",
+          "credit": "Berlin Art Association"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/berlin-art-week-post-image1.png",
+          "altText": "Art enthusiasts at a gallery opening",
+          "credit": "Berlin Art Association"
+        },
+        {
+          "url": "https://some.com/berlin-art-week-post-image2.png",
+          "altText": "Night view of Berlin during Art Week",
+          "credit": "Berlin Art Association"
+        },
+        {
+          "url": "https://some.com/berlin-art-week-post-image3.png",
+          "altText": "Artists' reception at an exhibition",
+          "credit": "Berlin Art Association"
+        },
+        {
+          "url": "https://some.com/berlin-art-week-post-image4.png",
+          "altText": "Art lovers exploring galleries",
+          "credit": "Berlin Art Association"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "fourteenth-event",
+      "name": "Berlin Food Festival",
+      "description": "Savor the flavors of Berlin at the Berlin Food Festival. Indulge in culinary delights from local chefs, street food vendors, and international cuisines.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Markthalle Neun",
+      "startDate": "2024-05-10T12:00:00",
+      "endDate": "2024-05-12T23:59:59",
+      "organiser": "Berlin Food Society",
+      "tags": [
+        {
+          "value": "food",
+          "label": "Food"
+        },
+        {
+          "value": "cuisine",
+          "label": "Cuisine"
+        },
+        {
+          "value": "tasting",
+          "label": "Tasting"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/berlin-food-festival-image1.png",
+          "altText": "Variety of dishes at Berlin Food Festival",
+          "credit": "Berlin Food Society"
+        },
+        {
+          "url": "https://some.com/berlin-food-festival-image2.png",
+          "altText": "Street food vendors at the festival",
+          "credit": "Berlin Food Society"
+        },
+        {
+          "url": "https://some.com/berlin-food-festival-image3.png",
+          "altText": "Chefs preparing food at cooking stations",
+          "credit": "Berlin Food Society"
+        },
+        {
+          "url": "https://some.com/berlin-food-festival-image4.png",
+          "altText": "People enjoying food and drinks",
+          "credit": "Berlin Food Society"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/berlin-food-festival-post-image1.png",
+          "altText": "Food festival attendees at a tasting event",
+          "credit": "Berlin Food Society"
+        },
+        {
+          "url": "https://some.com/berlin-food-festival-post-image2.png",
+          "altText": "Night market at Berlin Food Festival",
+          "credit": "Berlin Food Society"
+        },
+        {
+          "url": "https://some.com/berlin-food-festival-post-image3.png",
+          "altText": "Local vendors showcasing their products",
+          "credit": "Berlin Food Society"
+        },
+        {
+          "url": "https://some.com/berlin-food-festival-post-image4.png",
+          "altText": "Food festival ambiance",
+          "credit": "Berlin Food Society"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "fifteenth-event",
+      "name": "Berlin Technology Summit",
+      "description": "Explore the future of technology at the Berlin Technology Summit. Engage with industry leaders, innovators, and experts in discussions, workshops, and demonstrations.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Estrel Berlin",
+      "startDate": "2024-11-05T09:00:00",
+      "endDate": "2024-11-07T18:00:00",
+      "organiser": "Berlin Tech Alliance",
+      "tags": [
+        {
+          "value": "technology",
+          "label": "Technology"
+        },
+        {
+          "value": "innovation",
+          "label": "Innovation"
+        },
+        {
+          "value": "summit",
+          "label": "Summit"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/berlin-technology-summit-image1.png",
+          "altText": "Keynote speaker addressing the audience",
+          "credit": "Berlin Tech Alliance"
+        },
+        {
+          "url": "https://some.com/berlin-technology-summit-image2.png",
+          "altText": "Tech demos at the summit",
+          "credit": "Berlin Tech Alliance"
+        },
+        {
+          "url": "https://some.com/berlin-technology-summit-image3.png",
+          "altText": "Participants engaging in a workshop",
+          "credit": "Berlin Tech Alliance"
+        },
+        {
+          "url": "https://some.com/berlin-technology-summit-image4.png",
+          "altText": "Networking session at the summit",
+          "credit": "Berlin Tech Alliance"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/berlin-technology-summit-post-image1.png",
+          "altText": "Tech enthusiasts discussing innovations",
+          "credit": "Berlin Tech Alliance"
+        },
+        {
+          "url": "https://some.com/berlin-technology-summit-post-image2.png",
+          "altText": "Night view of Berlin skyline",
+          "credit": "Berlin Tech Alliance"
+        },
+        {
+          "url": "https://some.com/berlin-technology-summit-post-image3.png",
+          "altText": "Panel discussion on future technologies",
+          "credit": "Berlin Tech Alliance"
+        },
+        {
+          "url": "https://some.com/berlin-technology-summit-post-image4.png",
+          "altText": "Tech leaders networking at the summit",
+          "credit": "Berlin Tech Alliance"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "sixteenth-event",
+      "name": "Potsdam Palace Night",
+      "description": "Experience the magic of Potsdam Palace Night, where historic palaces and gardens are illuminated with enchanting lights. Enjoy guided tours, concerts, and culinary delights.",
+      "location": "Potsdam",
+      "locationCoords": "52.3906, 13.0645",
+      "venue": "Sanssouci Palace",
+      "startDate": "2024-07-20T18:00:00",
+      "endDate": "2024-07-21T02:00:00",
+      "organiser": "Potsdam Cultural Association",
+      "tags": [
+        {
+          "value": "cultural",
+          "label": "Cultural"
+        },
+        {
+          "value": "night event",
+          "label": "Night Event"
+        },
+        {
+          "value": "palace",
+          "label": "Palace"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/potsdam-palace-night-image1.png",
+          "altText": "Sanssouci Palace illuminated at night",
+          "credit": "Potsdam Cultural Association"
+        },
+        {
+          "url": "https://some.com/potsdam-palace-night-image2.png",
+          "altText": "Visitors enjoying the illuminated gardens",
+          "credit": "Potsdam Cultural Association"
+        },
+        {
+          "url": "https://some.com/potsdam-palace-night-image3.png",
+          "altText": "Concert performance at the palace",
+          "credit": "Potsdam Cultural Association"
+        },
+        {
+          "url": "https://some.com/potsdam-palace-night-image4.png",
+          "altText": "Dining area with illuminated ambiance",
+          "credit": "Potsdam Cultural Association"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/potsdam-palace-night-post-image1.png",
+          "altText": "Fireworks display at the palace",
+          "credit": "Potsdam Cultural Association"
+        },
+        {
+          "url": "https://some.com/potsdam-palace-night-post-image2.png",
+          "altText": "Night view of Sanssouci Palace",
+          "credit": "Potsdam Cultural Association"
+        },
+        {
+          "url": "https://some.com/potsdam-palace-night-post-image3.png",
+          "altText": "Cultural performances in the gardens",
+          "credit": "Potsdam Cultural Association"
+        },
+        {
+          "url": "https://some.com/potsdam-palace-night-post-image4.png",
+          "altText": "Visitors enjoying the festivities",
+          "credit": "Potsdam Cultural Association"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "seventeenth-event",
+      "name": "Potsdam Music Festival",
+      "description": "Enjoy a weekend of music at the Potsdam Music Festival. Featuring classical concerts, jazz performances, and contemporary music acts in picturesque settings.",
+      "location": "Potsdam",
+      "locationCoords": "52.3906, 13.0645",
+      "venue": "New Palace",
+      "startDate": "2024-08-10T10:00:00",
+      "endDate": "2024-08-12T23:59:59",
+      "organiser": "Potsdam Music Society",
+      "tags": [
+        {
+          "value": "music",
+          "label": "Music"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "concerts",
+          "label": "Concerts"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/potsdam-music-festival-image1.png",
+          "altText": "Classical concert at New Palace",
+          "credit": "Potsdam Music Society"
+        },
+        {
+          "url": "https://some.com/potsdam-music-festival-image2.png",
+          "altText": "Jazz band performing in the gardens",
+          "credit": "Potsdam Music Society"
+        },
+        {
+          "url": "https://some.com/potsdam-music-festival-image3.png",
+          "altText": "Contemporary music stage",
+          "credit": "Potsdam Music Society"
+        },
+        {
+          "url": "https://some.com/potsdam-music-festival-image4.png",
+          "altText": "Audience enjoying a music performance",
+          "credit": "Potsdam Music Society"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/potsdam-music-festival-post-image1.png",
+          "altText": "Night view of New Palace during the festival",
+          "credit": "Potsdam Music Society"
+        },
+        {
+          "url": "https://some.com/potsdam-music-festival-post-image2.png",
+          "altText": "Fireworks finale at the music festival",
+          "credit": "Potsdam Music Society"
+        },
+        {
+          "url": "https://some.com/potsdam-music-festival-post-image3.png",
+          "altText": "Music lovers enjoying the atmosphere",
+          "credit": "Potsdam Music Society"
+        },
+        {
+          "url": "https://some.com/potsdam-music-festival-post-image4.png",
+          "altText": "Artist meet-and-greet session",
+          "credit": "Potsdam Music Society"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "eighteenth-event",
+      "name": "Potsdam Wine Festival",
+      "description": "Taste exquisite wines at the Potsdam Wine Festival. Explore a variety of regional and international wines while enjoying live music, food pairings, and wine seminars.",
+      "location": "Potsdam",
+      "locationCoords": "52.3906, 13.0645",
+      "venue": "Luisenplatz",
+      "startDate": "2024-09-28T12:00:00",
+      "endDate": "2024-09-30T23:59:59",
+      "organiser": "Potsdam Wine Guild",
+      "tags": [
+        {
+          "value": "wine",
+          "label": "Wine"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "tasting",
+          "label": "Tasting"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/potsdam-wine-festival-image1.png",
+          "altText": "Wine tasting booths at Luisenplatz",
+          "credit": "Potsdam Wine Guild"
+        },
+        {
+          "url": "https://some.com/potsdam-wine-festival-image2.png",
+          "altText": "Wine connoisseurs sampling different varieties",
+          "credit": "Potsdam Wine Guild"
+        },
+        {
+          "url": "https://some.com/potsdam-wine-festival-image3.png",
+          "altText": "Live music entertainment at the festival",
+          "credit": "Potsdam Wine Guild"
+        },
+        {
+          "url": "https://some.com/potsdam-wine-festival-image4.png",
+          "altText": "Wine and food pairing demonstration",
+          "credit": "Potsdam Wine Guild"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/potsdam-wine-festival-post-image1.png",
+          "altText": "Night view of Luisenplatz during the wine festival",
+          "credit": "Potsdam Wine Guild"
+        },
+        {
+          "url": "https://some.com/potsdam-wine-festival-post-image2.png",
+          "altText": "Wine enthusiasts enjoying the festival atmosphere",
+          "credit": "Potsdam Wine Guild"
+        },
+        {
+          "url": "https://some.com/potsdam-wine-festival-post-image3.png",
+          "altText": "Wine seminar in progress",
+          "credit": "Potsdam Wine Guild"
+        },
+        {
+          "url": "https://some.com/potsdam-wine-festival-post-image4.png",
+          "altText": "Local wineries showcasing their products",
+          "credit": "Potsdam Wine Guild"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "nineteenth-event",
+      "name": "Brandenburg Nature Retreat",
+      "description": "Escape to the tranquility of Brandenburg's natural landscapes at the Nature Retreat. Enjoy hiking, birdwatching, and mindfulness activities amidst scenic forests and lakes.",
+      "location": "Brandenburg",
+      "locationCoords": "52.6367, 13.1177",
+      "venue": "Schorfheide-Chorin Biosphere Reserve",
+      "startDate": "2024-06-15T09:00:00",
+      "endDate": "2024-06-17T17:00:00",
+      "organiser": "Brandenburg Tourism Board",
+      "tags": [
+        {
+          "value": "nature",
+          "label": "Nature"
+        },
+        {
+          "value": "retreat",
+          "label": "Retreat"
+        },
+        {
+          "value": "outdoor",
+          "label": "Outdoor"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-image1.png",
+          "altText": "Hikers on a trail in Schorfheide-Chorin Biosphere Reserve",
+          "credit": "Brandenburg Tourism Board"
+        },
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-image2.png",
+          "altText": "Birdwatchers observing wildlife",
+          "credit": "Brandenburg Tourism Board"
+        },
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-image3.png",
+          "altText": "Yoga session by the lake",
+          "credit": "Brandenburg Tourism Board"
+        },
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-image4.png",
+          "altText": "Kayakers on a tranquil lake",
+          "credit": "Brandenburg Tourism Board"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-post-image1.png",
+          "altText": "Sunset over the biosphere reserve",
+          "credit": "Brandenburg Tourism Board"
+        },
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-post-image2.png",
+          "altText": "Campfire gathering under the stars",
+          "credit": "Brandenburg Tourism Board"
+        },
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-post-image3.png",
+          "altText": "Nature photography workshop",
+          "credit": "Brandenburg Tourism Board"
+        },
+        {
+          "url": "https://some.com/brandenburg-nature-retreat-post-image4.png",
+          "altText": "Participants enjoying a picnic",
+          "credit": "Brandenburg Tourism Board"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "twentieth-event",
+      "name": "Brandenburg Beer Festival",
+      "description": "Celebrate Bavarian brewing traditions at the Brandenburg Beer Festival. Sample a wide selection of beers, enjoy live music, and indulge in hearty Bavarian cuisine.",
+      "location": "Brandenburg",
+      "locationCoords": "52.3906, 13.1177",
+      "venue": "Brandenburg Old Town",
+      "startDate": "2024-08-24T16:00:00",
+      "endDate": "2024-08-26T23:59:59",
+      "organiser": "Brandenburg Brewers Guild",
+      "tags": [
+        {
+          "value": "beer",
+          "label": "Beer"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "cuisine",
+          "label": "Cuisine"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/brandenburg-beer-festival-image1.png",
+          "altText": "Beer tents at Brandenburg Old Town",
+          "credit": "Brandenburg Brewers Guild"
+        },
+        {
+          "url": "https://some.com/brandenburg-beer-festival-image2.png",
+          "altText": "Beer tasting glasses with various brews",
+          "credit": "Brandenburg Brewers Guild"
+        },
+        {
+          "url": "https://some.com/brandenburg-beer-festival-image3.png",
+          "altText": "Traditional Bavarian music performance",
+          "credit": "Brandenburg Brewers Guild"
+        },
+        {
+          "url": "https://some.com/brandenburg-beer-festival-image4.png",
+          "altText": "Pretzels and sausages at a food stall",
+          "credit": "Brandenburg Brewers Guild"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/brandenburg-beer-festival-post-image1.png",
+          "altText": "Night view of the beer festival",
+          "credit": "Brandenburg Brewers Guild"
+        },
+        {
+          "url": "https://some.com/brandenburg-beer-festival-post-image2.png",
+          "altText": "Beer festival atmosphere",
+          "credit": "Brandenburg Brewers Guild"
+        },
+        {
+          "url": "https://some.com/brandenburg-beer-festival-post-image3.png",
+          "altText": "Cheers with beer mugs",
+          "credit": "Brandenburg Brewers Guild"
+        },
+        {
+          "url": "https://some.com/brandenburg-beer-festival-post-image4.png",
+          "altText": "Participants enjoying beer and music",
+          "credit": "Brandenburg Brewers Guild"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "slug": "twenty-first-event",
+      "name": "Brandenburg Castle Run",
+      "description": "Experience the thrill of the Brandenburg Castle Run, a scenic race through historic castles and picturesque landscapes. Choose from various distances suitable for all ages and skill levels.",
+      "location": "Brandenburg",
+      "locationCoords": "52.3906, 13.1177",
+      "venue": "Rheinsberg Castle",
+      "startDate": "2024-10-12T08:00:00",
+      "endDate": "2024-10-12T12:00:00",
+      "organiser": "Brandenburg Athletics Association",
+      "tags": [
+        {
+          "value": "sports",
+          "label": "Sports"
+        },
+        {
+          "value": "running",
+          "label": "Running"
+        },
+        {
+          "value": "race",
+          "label": "Race"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://some.com/brandenburg-castle-run-image1.png",
+          "altText": "Runners passing by Rheinsberg Castle",
+          "credit": "Brandenburg Athletics Association"
+        },
+        {
+          "url": "https://some.com/brandenburg-castle-run-image2.png",
+          "altText": "Scenic route through the countryside",
+          "credit": "Brandenburg Athletics Association"
+        },
+        {
+          "url": "https://some.com/brandenburg-castle-run-image3.png",
+          "altText": "Finish line celebration",
+          "credit": "Brandenburg Athletics Association"
+        },
+        {
+          "url": "https://some.com/brandenburg-castle-run-image4.png",
+          "altText": "Runners warming up before the race",
+          "credit": "Brandenburg Athletics Association"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://some.com/brandenburg-castle-run-post-image1.png",
+          "altText": "Award ceremony at Rheinsberg Castle",
+          "credit": "Brandenburg Athletics Association"
+        },
+        {
+          "url": "https://some.com/brandenburg-castle-run-post-image2.png",
+          "altText": "Runners celebrating their achievements",
+          "credit": "Brandenburg Athletics Association"
+        },
+        {
+          "url": "https://some.com/brandenburg-castle-run-post-image3.png",
+          "altText": "Runners posing with medals",
+          "credit": "Brandenburg Athletics Association"
+        },
+        {
+          "url": "https://some.com/brandenburg-castle-run-post-image4.png",
+          "altText": "Participants enjoying post-race refreshments",
+          "credit": "Brandenburg Athletics Association"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "twenty-second-event",
+      "name": "Berlin Street Food Festival",
+      "description": "Indulge in a culinary adventure at the Berlin Street Food Festival. Discover delicious street food from around the world, live cooking demonstrations, and vibrant cultural performances.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Gleisdreieck Park",
+      "startDate": "2024-07-05T12:00:00",
+      "endDate": "2024-07-07T23:59:59",
+      "organiser": "Berlin Food Events",
+      "tags": [
+        {
+          "value": "food",
+          "label": "Food"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "street food",
+          "label": "Street Food"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1589090604168-b9b676c91063",
+          "altText": "People enjoying street food",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1614986514404-f24575a9bdf3",
+          "altText": "Street food stalls",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1518978286276-49f46aa6a1a4",
+          "altText": "Live cooking demonstration",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759",
+          "altText": "Cultural performance",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1555098574-404b99a01654",
+          "altText": "Night view of festival",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1555098486-4563807e18f9",
+          "altText": "Crowds enjoying the festival",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1555098555-5c34e348641e",
+          "altText": "Food stalls at night",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "twenty-third-event",
+      "name": "Berlin Fashion Week",
+      "description": "Experience the cutting-edge of fashion at Berlin Fashion Week. Discover the latest trends, attend runway shows by top designers, and immerse yourself in the glamour of the fashion world.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Kraftwerk Berlin",
+      "startDate": "2024-09-10T10:00:00",
+      "endDate": "2024-09-14T23:59:59",
+      "organiser": "Berlin Fashion Council",
+      "tags": [
+        {
+          "value": "fashion",
+          "label": "Fashion"
+        },
+        {
+          "value": "runway",
+          "label": "Runway"
+        },
+        {
+          "value": "style",
+          "label": "Style"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1512069772995-ec99c7bd3e47",
+          "altText": "Runway show",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1513807090930-c2c3b6ef0ac2",
+          "altText": "Fashion models backstage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1503256207526-0d0754606926",
+          "altText": "Fashion week venue",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1474937351421-bc313f90e84a",
+          "altText": "Fashion accessories",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1476729512358-016a64c90ad8",
+          "altText": "Fashion week after-party",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1493707553966-e9144fcc7d9b",
+          "altText": "Fashion enthusiasts",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1493707490019-9dd8f2e7188e",
+          "altText": "Fashion event atmosphere",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "slug": "twenty-fourth-event",
+      "name": "Berlin Film Festival",
+      "description": "Celebrate cinema at the Berlin Film Festival. Experience a diverse selection of films from around the world, attend screenings, panel discussions, and engage with filmmakers.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Berlinale Palast",
+      "startDate": "2024-02-15T10:00:00",
+      "endDate": "2024-02-25T23:59:59",
+      "organiser": "Berlin International Film Festival",
+      "tags": [
+        {
+          "value": "film",
+          "label": "Film"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "cinema",
+          "label": "Cinema"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1520158314324-fd87e3429e0f",
+          "altText": "Film festival venue",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1542502469-26670b848c43",
+          "altText": "Film screening",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1542502387-67d7e28619b8",
+          "altText": "Red carpet event",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1542502248-5d21e6f1b866",
+          "altText": "Film festival atmosphere",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1542502742-6a008b741d50",
+          "altText": "Film festival after-party",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1542502673-e4566e40cc04",
+          "altText": "Filmmakers celebrating",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1542502581-6e9e733db1b3",
+          "altText": "Film enthusiasts",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "twenty-fifth-event",
+      "name": "Berlin Comedy Club Night",
+      "description": "Laugh your heart out at the Berlin Comedy Club Night. Enjoy an evening of hilarious stand-up comedy by top comedians, guaranteed to leave you in stitches.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Kulturbrauerei",
+      "startDate": "2024-08-10T20:00:00",
+      "endDate": "2024-08-10T23:00:00",
+      "organiser": "Berlin Comedy Club",
+      "tags": [
+        {
+          "value": "comedy",
+          "label": "Comedy"
+        },
+        {
+          "value": "stand-up",
+          "label": "Stand-up"
+        },
+        {
+          "value": "entertainment",
+          "label": "Entertainment"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
+          "altText": "Comedy club interior",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1561641237-55cd4e86d1f7",
+          "altText": "Comedian performing on stage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1559328623-6f8bfc9a06df",
+          "altText": "Audience laughing at comedy show",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533305957255-6e504d2bfb1e",
+          "altText": "Comedy night poster",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1533305957255-6e504d2bfb1e",
+          "altText": "Audience applauding",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1529000655025-e14f12877a82",
+          "altText": "Comedy club interior at night",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1552289811-9ab28316f1ca",
+          "altText": "Comedy night atmosphere",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "slug": "twenty-sixth-event",
+      "name": "Berlin Improv Night",
+      "description": "Experience the spontaneous hilarity of the Berlin Improv Night. Watch talented improv comedians create comedy sketches on the spot based on audience suggestions.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Comedy Cafe Berlin",
+      "startDate": "2024-09-21T19:30:00",
+      "endDate": "2024-09-21T22:30:00",
+      "organiser": "Berlin Improv Society",
+      "tags": [
+        {
+          "value": "comedy",
+          "label": "Comedy"
+        },
+        {
+          "value": "improv",
+          "label": "Improv"
+        },
+        {
+          "value": "entertainment",
+          "label": "Entertainment"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1521947147605-3f42c15a3c21",
+          "altText": "Improv comedy stage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1551778244-38e0c1497a50",
+          "altText": "Improvisational comedy performance",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1549319558-1b2d69421639",
+          "altText": "Comedians during an improv game",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1552782991-eac9223479a2",
+          "altText": "Audience enjoying improv comedy",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558423032-98fa964f94e5",
+          "altText": "Improvisational comedy scene",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1546539975-2e0f7e9d2f3b",
+          "altText": "Audience reaction to improv comedy",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1561202684-628cbf84728c",
+          "altText": "Improv comedy show poster",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "twenty-seventh-event",
+      "name": "Berlin Comedy Film Festival",
+      "description": "Discover the best in comedic cinema at the Berlin Comedy Film Festival. Enjoy screenings of hilarious short films, feature-length comedies, and filmmaker Q&A sessions.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Zoo Palast",
+      "startDate": "2024-11-05T10:00:00",
+      "endDate": "2024-11-08T23:59:59",
+      "organiser": "Berlin Comedy Film Society",
+      "tags": [
+        {
+          "value": "comedy",
+          "label": "Comedy"
+        },
+        {
+          "value": "film",
+          "label": "Film"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1502877515208-7d3e8f79ad5e",
+          "altText": "Comedy film festival venue",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521220279887-2f01c1b5228f",
+          "altText": "Film screening at comedy festival",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521220281625-2848bbf5dc37",
+          "altText": "Filmmaker Q&A session",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521220280423-d1563b645498",
+          "altText": "Comedic short film poster",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1521220279887-2f01c1b5228f",
+          "altText": "Audience enjoying comedy film",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521220279023-04415fdddb97",
+          "altText": "Filmmaker discussing comedy film",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521220280998-5bf70a87d2b9",
+          "altText": "Film festival atmosphere",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "slug": "twenty-eighth-event",
+      "name": "Berlin Comedy Showcase",
+      "description": "Prepare for an evening of laughter at the Berlin Comedy Showcase. Watch up-and-coming comedians deliver hilarious stand-up routines and enjoy a night of comedy entertainment.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "BKA Theater",
+      "startDate": "2024-09-15T19:00:00",
+      "endDate": "2024-09-15T22:00:00",
+      "organiser": "Berlin Comedy Collective",
+      "tags": [
+        {
+          "value": "comedy",
+          "label": "Comedy"
+        },
+        {
+          "value": "stand-up",
+          "label": "Stand-up"
+        },
+        {
+          "value": "entertainment",
+          "label": "Entertainment"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1519441337595-3d007fc0d37b",
+          "altText": "Comedy showcase poster",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1517013629619-e4e796cac0ea",
+          "altText": "Comedians performing on stage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1554755338-c4e169f8e37e",
+          "altText": "Comedy club audience",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521220281984-dba51b999f49",
+          "altText": "Comedy night atmosphere",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1521220281984-dba51b999f49",
+          "altText": "Comedy club interior",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1554755338-c4e169f8e37e",
+          "altText": "Audience enjoying comedy show",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558438396-4e6b7e25244b",
+          "altText": "Comedy night after-party",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "slug": "twenty-ninth-event",
+      "name": "Berlin Comedy Cabaret",
+      "description": "Step into the world of hilarity at the Berlin Comedy Cabaret. Experience a blend of comedy, music, and cabaret acts, promising an unforgettable night of entertainment.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Bar jeder Vernunft",
+      "startDate": "2024-10-20T20:30:00",
+      "endDate": "2024-10-20T23:30:00",
+      "organiser": "Berlin Comedy Cabaret Company",
+      "tags": [
+        {
+          "value": "comedy",
+          "label": "Comedy"
+        },
+        {
+          "value": "cabaret",
+          "label": "Cabaret"
+        },
+        {
+          "value": "entertainment",
+          "label": "Entertainment"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1579615604245-8b2b9b52e355",
+          "altText": "Comedy cabaret stage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1605191502147-1b171e3a7b5b",
+          "altText": "Cabaret performers on stage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1516495710560-1925c2eb2145",
+          "altText": "Audience enjoying cabaret comedy",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1557801560-52da5c4a5a4d",
+          "altText": "Comedy cabaret night atmosphere",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1557801560-52da5c4a5a4d",
+          "altText": "Comedy cabaret venue exterior",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1516495710560-1925c2eb2145",
+          "altText": "Audience applauding at cabaret show",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1516495539161-9f8f1e00c8d1",
+          "altText": "Cabaret performers",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "slug": "thirtieth-event",
+      "name": "Berlin Comedy Festival",
+      "description": "Celebrate laughter at the Berlin Comedy Festival. Enjoy a diverse lineup of comedy acts including stand-up, sketch comedy, and improv performances, promising endless fun and entertainment.",
+      "location": "Berlin",
+      "locationCoords": "52.5200, 13.4050",
+      "venue": "Volksbühne Berlin",
+      "startDate": "2024-11-30T18:00:00",
+      "endDate": "2024-12-02T23:59:59",
+      "organiser": "Berlin Comedy Festival Association",
+      "tags": [
+        {
+          "value": "comedy",
+          "label": "Comedy"
+        },
+        {
+          "value": "festival",
+          "label": "Festival"
+        },
+        {
+          "value": "entertainment",
+          "label": "Entertainment"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1561641237-7de154af4aa0",
+          "altText": "Comedy festival venue",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1606398767069-67b5c82ad038",
+          "altText": "Comedy festival audience",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1524882320475-e4a2b4fefeba",
+          "altText": "Comedy festival stage",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1558423032-98fa964f94e5",
+          "altText": "Comedy festival atmosphere",
+          "credit": "Unsplash"
+        }
+      ],
+      "postShowImages": [
+        {
+          "url": "https://images.unsplash.com/photo-1558423032-98fa964f94e5",
+          "altText": "Audience enjoying comedy festival",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1552171296-75c10788cf1c",
+          "altText": "Comedy festival after-party",
+          "credit": "Unsplash"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1557816804-3bd44c8c3be8",
+          "altText": "Comedy festival performers",
+          "credit": "Unsplash"
+        }
+      ]
+    },
+    {
+      "name": "wefas",
+      "description": "wqdef",
+      "location": "ersf",
+      "venue": "eaf",
+      "startDate": "2024-03-18T17:19",
+      "endDate": "2024-03-18T17:21",
+      "organiser": "aed",
+      "tags": [
+        "efa"
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "",
+          "altText": "",
+          "credit": ""
+        }
+      ],
+      "pendingApproval": true,
+      "slug": "wefas",
+      "id": 31
+    },
+    {
+      "name": "advadv",
+      "description": "advadv",
+      "location": "aef",
+      "venue": "aegae",
+      "startDate": "2024-03-29T09:59",
+      "endDate": "2024-03-19T09:05",
+      "organiser": "agae",
+      "tags": [
+        "test"
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "",
+          "altText": "",
+          "credit": ""
+        }
+      ],
+      "pendingApproval": true,
+      "slug": "advadv",
+      "id": 32
+    },
+    {
+      "name": "advadv",
+      "description": "advadv",
+      "location": "aef",
+      "venue": "aegae",
+      "startDate": "2024-03-29T09:59",
+      "endDate": "2024-03-19T09:05",
+      "organiser": "agae",
+      "tags": [
+        "test"
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "",
+          "altText": "",
+          "credit": ""
+        }
+      ],
+      "pendingApproval": true,
+      "slug": "advadv",
+      "id": 33
+    },
+    {
+      "name": "some event woth tags",
+      "description": "aef;jnefgkjnefg",
+      "location": "aefgr",
+      "venue": "ef",
+      "startDate": "2024-03-19T14:11",
+      "endDate": "2024-03-30T10:11",
+      "organiser": "vrs",
+      "tags": [
+        {
+          "value": 3,
+          "label": "option 3"
+        },
+        {
+          "value": 5,
+          "label": "option 5"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [],
+      "pendingApproval": true,
+      "slug": "some-event-woth-tags",
+      "id": 34
+    },
+    {
+      "name": "aefggfg",
+      "description": "aef",
+      "location": "aeg",
+      "venue": "aef",
+      "startDate": "2024-03-19T11:58",
+      "endDate": "2024-03-19T10:04",
+      "organiser": "geee",
+      "tags": [
+        {
+          "value": "rock",
+          "label": "Rock"
+        },
+        {
+          "value": "techno",
+          "label": "Techno"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "",
+          "altText": "",
+          "credit": ""
+        }
+      ],
+      "pendingApproval": true,
+      "slug": "aefggfg",
+      "id": 35
+    },
+    {
+      "name": "bloop blorp event",
+      "description": "aef",
+      "location": "aeg",
+      "venue": "aef",
+      "startDate": "2024-03-19T11:58",
+      "endDate": "2024-03-19T10:04",
+      "organiser": "geee",
+      "tags": [
+        {
+          "value": "rock",
+          "label": "Rock"
+        },
+        {
+          "value": "techno",
+          "label": "Techno"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "images": [
+        {
+          "url": "",
+          "altText": "",
+          "credit": ""
+        }
+      ],
+      "pendingApproval": true,
+      "slug": "blerrrg",
+      "id": 36
+    }
+  ],
+  "submissions": [
+    {
+      "slug": "submitted-event",
+      "name": "my test event submission",
+      "description": "Join us for the biggest music festival of the year! Enjoy live performances by top artists across multiple stages.",
+      "location": "New York City",
+      "locationCoords": "40.730610, -73.935242",
+      "venue": "Big Event Location",
+      "startDate": "2024-01-13T13:00:00",
+      "endDate": "2024-01-20T23:59:59",
+      "organiser": "Eventz Productions",
+      "tags": [
+        {
+          "value": "foodie",
+          "label": "Foodie"
+        },
+        {
+          "value": "networking",
+          "label": "Networking"
+        },
+        {
+          "value": "cultural",
+          "label": "Cultural"
+        }
+      ],
+      "promoImage": "/assets/demo-image-stretching.avif",
+      "id": 1
+    }
+  ],
+  "performers": [
+    {
+      "id": 1,
+      "name": "johnny performer",
+      "teams": [
+        1,
+        2
+      ],
+      "eventId": 1
+    },
+    {
+      "id": 2,
+      "name": "judy performer",
+      "teams": [
+        2
+      ],
+      "eventId": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "me@me.com",
+      "password": "$2a$10$SuxqpBDxcu1mOZeOzoGSTeC7zTlm5A/MC/m74dmdWxjB6IF462Ju2",
+      "firstname": "jij",
+      "lastname": "jijington",
+      "id": 1
+    }
+  ]
 }
